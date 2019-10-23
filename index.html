@@ -16,7 +16,8 @@
         <link rel="stylesheet" href="vendors/animate-css/animate.css">
         <link rel="stylesheet" href="vendors/popup/magnific-popup.css">
         <link rel="stylesheet" href="vendors/flaticon/flaticon.css">
-        <!-- main css -->
+		<!-- main css -->
+		<link rel="stylesheet" href="css/custom.css">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/responsive.css">
     </head>
@@ -30,21 +31,21 @@
 						<!-- Collect the nav links, forms, and other content for toggling -->
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
-								<li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Experience</a></li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Skills</a></li> 
+								<li class="nav-item"><a class="nav-link" style="cursor: pointer" id="home-label" onclick="greyAllLables(); showSection('home')">Home</a></li> 
+								<li class="nav-item"><a class="nav-link" style="cursor: pointer" id="about-label"onclick=" greyAllLables(); showSection('about')">About</a></li> 
+								<li class="nav-item"><a class="nav-link" style="cursor: pointer" id="experience-label" onclick="greyAllLables(); showSection('experience')">Experience</a></li> 
+								<li class="nav-item"><a class="nav-link" style="cursor: pointer" id="skills-label" onclick="greyAllLables(); showSection('skills')">Skills</a></li> 
 								<li  class="nav-item"><span class="nav-link"> | </span></li>
 								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Travel</a>
+									<a href="#" class="nav-link dropdown-toggle"  onclick="greyAllLables(); showSection('travel')" id="travel-label" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Travel</a>
 									<ul class="dropdown-menu">
 										<li class="nav-item"><a class="nav-link" href="portfolio.html">Vietnam 2019</a></li>
 										<li class="nav-item"><a class="nav-link" href="elements.html">France 2019</a></li>
 									</ul>
 								</li> 
-								<li class="nav-item"><a class="nav-link" href="services.html">Books</a></li> 
+								<li class="nav-item"><a class="nav-link" id="books-label"  onclick="greyAllLables(); showSection('books')">Books</a></li> 
 								<li  class="nav-item"><span class="nav-link"> | </span></li>
-								<li class="nav-item"><a class="nav-link" href="contact.html">Resume</a></li>
+								<li class="nav-item"><a class="nav-link" id="resume-label"  onclick="greyAllLables(); showSection('resume')">Resume</a></li>
 							</ul>
 						</div> 
 					</div>
@@ -53,8 +54,8 @@
         </header>
         <!--================Header Menu Area =================-->
         
-        <!--================Home Banner Area =================-->
-        <section class="home_banner_area">
+        <!--================ Home Section =================-->
+        <section class="home_banner_area " id="home">
            	<div class="container box_1620">
            		<div class="banner_inner d-flex align-items-center">
 					<div class="banner_content">
@@ -62,7 +63,7 @@
 						
 								<img style="max-width: 50%; margin-right: 4%" src="img/profile.jpg" alt="">
 					
-								<div class="media-body">
+								<div class="media-body fade-in">
 									<div class="personal_text">
 										<h6>Hello, I'm </h6>
 										<h3>Jake Raw</h3>
@@ -70,9 +71,9 @@
 										<p>I'm a recent computer engineering gradate,
 											passionate about web development and cloud technologies.</p>
 										<ul class="list basic_info">
-											<li><a href="#"><i class="lnr lnr-calendar-full"></i> 4th April, 1996</a></li>
-											<li><a href="#"><i class="lnr lnr-phone-handset"></i> (226) 338-6440</a></li>
 											<li><a href="#"><i class="lnr lnr-envelope"></i> jtraw96@gmail.com</a></li>
+											<li><a href="#"><i class="lnr lnr-phone-handset"></i> (226) 338-6440</a></li>
+		
 											<li><a href="#"><i class="lnr lnr-home"></i>Toronto, Ontario</a></li>
 										</ul>
 										<ul class="list personal_social">
@@ -86,8 +87,132 @@
 					</div>
 				</div>
             </div>
-        </section>
-        <!--================End Home Banner Area =================-->
+		</section>
+	
+		
+		<!--================ About Area =================-->	
+		<section class="home_banner_area page-load" id="about">
+			<div class="container box_1620">
+				<div class="banner_inner d-flex align-items-center">
+				 <div class="banner_content">
+					 <div class="media">
+					 
+							 <img style="max-width: 50%; margin-right: 4%" src="img/profile.jpg" alt="">
+				 
+							 <div class="media-body fade-in">
+								 <div class="personal_text">
+									<p> This is my about section </p>
+								 </div>
+							 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </section>
+
+	 
+	 		<!--================ About Area =================-->	
+			 <section class="home_banner_area page-load" id="experience">
+				<div class="container box_1620">
+					<div class="banner_inner d-flex align-items-center">
+					 <div class="banner_content">
+						 <div class="media">
+								 <img style="max-width: 50%; margin-right: 4%" src="img/profile.jpg" alt="">	 
+								 <div class="media-body">
+									 <div class="personal_text">
+										<p> My Experience </p>
+									 </div>
+								 </div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </section>
+
+	 		<!--================ About Area =================-->	
+			 <section class="home_banner_area page-load" id="skills">
+				<div class="container box_1620">
+					<div class="banner_inner d-flex align-items-center">
+					 <div class="banner_content">
+						 <div class="media">
+						 
+								 <img style="max-width: 50%; margin-right: 4%" src="img/profile.jpg" alt="">
+					 
+								 <div class="media-body">
+									 <div class="personal_text">
+										<p> Skills </p>
+									 </div>
+								 </div>
+						 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </section>
+
+
+		 	<!--================ About Area =================-->	
+		<section class="home_banner_area page-load" id="travel">
+			<div class="container box_1620">
+				<div class="banner_inner d-flex align-items-center">
+				 <div class="banner_content">
+					 <div class="media">
+					 
+							 <img style="max-width: 50%; margin-right: 4%" src="img/profile.jpg" alt="">
+				 
+							 <div class="media-body fade-in">
+								 <div class="personal_text">
+									<p> This is my travel section </p>
+								 </div>
+							 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </section>
+
+
+	 	<!--================ About Area =================-->	
+		 <section class="home_banner_area page-load" id="books">
+			<div class="container box_1620">
+				<div class="banner_inner d-flex align-items-center">
+				 <div class="banner_content">
+					 <div class="media">
+					 
+							 <img style="max-width: 50%; margin-right: 4%" src="img/profile.jpg" alt="">
+				 
+							 <div class="media-body fade-in">
+								 <div class="personal_text">
+									<p> This is my BOOKS section </p>
+								 </div>
+							 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </section>
+
+	 
+	 	<!--================ About Area =================-->	
+		 <section class="home_banner_area page-load" id="resume">
+			<div class="container box_1620">
+				<div class="banner_inner d-flex align-items-center">
+				 <div class="banner_content">
+					 <div class="media">
+					 
+							 <img style="max-width: 50%; margin-right: 4%" src="img/profile.jpg" alt="">
+				 
+							 <div class="media-body fade-in">
+								 <div class="personal_text">
+									<p> This is my resume section </p>
+								 </div>
+							 </div>
+					 </div>
+				 </div>
+			 </div>
+		 </div>
+	 </section>
+
+
         
 
         <!--================End Footer Area =================-->
@@ -118,6 +243,7 @@
         <script src="vendors/counter-up/jquery.waypoints.min.js"></script>
         <script src="vendors/counter-up/jquery.counterup.min.js"></script>
         <script src="js/mail-script.js"></script>
-        <script src="js/theme.js"></script>
+		<script src="js/theme.js"></script>
+		<script src="js/main.js"></script>
     </body>
 </html>
