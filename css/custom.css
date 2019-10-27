@@ -21,13 +21,31 @@
     
   }
 
+  /* Everything esle */
+
+  .work-cards {
+    margin-bottom: 20px !important;
+  }
+
+  .work-title{
+    max-height: 55px;
+    padding: 15px 15px 15px 26px !important;
+  }
+
+  .date-column{
+    max-width: 15%;
+  }
+
   .left {
     float: right;
-    margin-right: -4%;
+  }
+
+  .bold-text {
+    color: rgba(0, 0, 0, 1.9);
   }
 
   .right {
-      padding-left: 30px;
+   padding-left: 48px
   }
 
   .experience-column-right {
@@ -51,10 +69,9 @@
 
   .flex-column-left {
     display: flex;
-    flex-direction: column;
     flex-basis: 100%;
     flex: 1;
-    align-items: right; 
+    align-items: left; 
   }
 
 /* end of flex box stuff */
