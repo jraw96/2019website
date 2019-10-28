@@ -44,6 +44,9 @@ Table of Content:
 @import url("https://fonts.googleapis.com/css?family=Heebo:300,400,700,900|Roboto:300,400,500,700");
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+
+html { scroll-behavior: smooth; } 
+
 .list {
   list-style: none;
   margin: 0px;
@@ -145,7 +148,7 @@ button:focus {
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
-        font: 500 12px/120px "Roboto", sans-serif;
+        font: 500 14px/120px "Roboto", sans-serif;
         text-transform: uppercase;
 
         padding: 0px;
@@ -2563,7 +2566,7 @@ h6 {
   display: block;
   text-align: center;
   border: none;
-  margin-bottom: 120px; }
+  margin-bottom: 20px; }
   .tabs_inner .nav.nav-tabs li {
     display: inline-block;
     margin-right: 8px; }
@@ -2574,15 +2577,15 @@ h6 {
       padding: 0px 40px;
       font-size: 13px;
       font-weight: 500;
-      color: #fff;
+      color:rgba(0, 0, 0, 0.5);
       font-family: "Roboto", sans-serif;
-      border: 1px solid #9ab5f5;
+      border: 1px solid #DCDCDC;
       background: rgba(255, 255, 255, 0.1); }
       .tabs_inner .nav.nav-tabs li a.active {
         background: #fff;
         color: #222222; }
 .tabs_inner .tab-content .tab-pane .list {
-  max-width: 460px;
+  max-width: 803px;
   margin: auto;
   position: relative;
   padding-top: 40px;
@@ -2591,9 +2594,9 @@ h6 {
     content: "";
     height: 100%;
     width: 5px;
-    background: rgba(255, 255, 255, 0.2);
+    background-color: #DCDCDC;	
     position: absolute;
-    left: 46%;
+    left: 50.3%;
     transform: translateX(-50%);
     top: -5px; }
   .tabs_inner .tab-content .tab-pane .list li {
@@ -2604,15 +2607,16 @@ h6 {
       width: 15px;
       border-radius: 50%;
       display: block;
-      background: rgba(255, 255, 255, 0.2);
+      background-color: #DCDCDC;	
       position: absolute;
-      left: 46%;
+      left: 50.3%;
       top: 30px;
       transform: translateX(-50%); }
       .tabs_inner .tab-content .tab-pane .list li span:before {
         content: '';
         height: 7px;
         width: 7px;
+        background-color: #DCDCDC;	
         background: #fff;
         border-radius: 50%;
         position: absolute;
@@ -2622,18 +2626,18 @@ h6 {
     .tabs_inner .tab-content .tab-pane .list li:last-child {
       margin-bottom: 0px; }
     .tabs_inner .tab-content .tab-pane .list li .media .d-flex {
-      padding-right: 100px; }
+      padding-right: 100px;
+      padding-left: 46px; }
       .tabs_inner .tab-content .tab-pane .list li .media .d-flex p {
-        color: rgba(255, 255, 255, 0.75);
+        
         margin-bottom: 0px;
         padding-top: 20px; }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body h4 {
-      color: #fff;
+     /* color: #fff; Experience headers */
       font-size: 21px;
-      text-transform: uppercase;
-      margin-bottom: 20px; }
+     }
     .tabs_inner .tab-content .tab-pane .list li .media .media-body p {
-      color: rgba(255, 255, 255, 0.75);
+
       margin-bottom: 0px; }
 
 /* End My Tabs Area css

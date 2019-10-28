@@ -39,6 +39,25 @@ function setHomeLabel(){
 setHomeLabel();
 
 
+function showExperience(){
+    document.getElementById('experiences').style.display = "block"
+    document.getElementById('experience-cards').style.display = "block"
+    document.getElementById('education').style.display = "none"
+    document.getElementById('education-card').style.display = "none"
+
+    
+}
+
+showExperience()
+
+
+function showEducation(){
+    document.getElementById('education').style.display = "block"
+    document.getElementById('education-card').style.display = "block"
+    document.getElementById('experiences').style.display = "none"
+    document.getElementById('experience-cards').style.display = "none"
+    
+}
 
 
 
