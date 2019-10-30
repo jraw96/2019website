@@ -210,7 +210,7 @@ button:focus {
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:last-child {
               border-bottom: none; }
             .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-              background: #766dff;
+              background: #87CEFA;
               color: #fff; }
         @media (min-width: 992px) {
           .header_area .navbar .nav .nav-item.submenu:hover ul {
@@ -323,13 +323,14 @@ ctrl here
   .home_banner_area .banner_inner {
     position: relative;
     width: 100%;
-   
+    justify-content: space-between;
     display: flex; }
     .home_banner_area .banner_inner .banner_content {
       color: #222222;
       vertical-align: middle;
       align-self: center;
-      text-align: left; }
+      text-align: left;
+      min-width: 30% }
       .home_banner_area .banner_inner .banner_content .media .d-flex {
         padding-right: 125px; }
       .home_banner_area .banner_inner .banner_content .media .media-body {
@@ -2522,6 +2523,8 @@ h6 {
     margin-bottom: 0px; }
 
 .tools_expert {
+  min-width: 80%;
+  margin: auto;
   padding: 20px 0px 0px 0px; }
   .tools_expert .skill_main .skill_item {
     margin-bottom: 18px; }
@@ -2549,9 +2552,9 @@ h6 {
         border-radius: 5px;
         vertical-align: middle;
         align-self: center;
-        background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-        background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+        background-image: -moz-linear-gradient(0deg, #FDF5E6  0%, #FDF5E6  100%);
+        background-image: -webkit-linear-gradient(0deg, #87CEFA  0%, #87CEFA  100%);
+        background-image: -ms-linear-gradient(0deg, #FDF5E6  0%, #FDF5E6  100%); }
 
 /* End Welcome Area css
 ============================================================================================ */
@@ -2768,9 +2771,9 @@ h6 {
       color: #fff;
       font-size: 16px; }
     .personal_text .personal_social li:hover a {
-      background-image: -moz-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -webkit-linear-gradient(0deg, #766dff 0%, #88f3ff 100%);
-      background-image: -ms-linear-gradient(0deg, #766dff 0%, #88f3ff 100%); }
+      background-image: -moz-linear-gradient(0deg, #87CEFA 0%, #87CEFA 100%);
+      background-image: -webkit-linear-gradient(0deg, #87CEFA 0%, #87CEFA 100%);
+      background-image: -ms-linear-gradient(0deg, #87CEFA 0%, #87CEFA 100%); }
 
 /* End Personal Profile Area css
 ============================================================================================ */

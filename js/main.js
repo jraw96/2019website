@@ -1,4 +1,4 @@
-var sections = ["home","about","experience","skills","travel","books","resume"];
+var sections = ["home","about","experience","skills","travel","books"];
 
 function showSection(section) {
 
@@ -19,6 +19,12 @@ function showSection(section) {
         }
     }
 }
+
+function greyResume(){
+    let currentLabel = document.getElementById('resume-label');
+    currentLabel.style.color = 'rgba(0, 0, 0, 0.5)';
+}
+
 
 function greyAllLables(){
     for(var i = 0; i<=sections.length - 1; i++){
