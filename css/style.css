@@ -148,7 +148,7 @@ button:focus {
     .header_area .navbar .nav .nav-item {
       margin-right: 45px; }
       .header_area .navbar .nav .nav-item .nav-link {
-        font: 500 14px/120px "Roboto", sans-serif;
+        font: 500 16px/120px "Roboto", sans-serif;
         text-transform: uppercase;
 
         padding: 0px;
@@ -305,18 +305,24 @@ ctrl here
 .home_banner_area {
   position: relative;
   z-index: 1;
-  margin-top: -81px;
+
+  float: left;
+width: 100%;
+height: 100vh;
+
 
   /* Background color scheme */
+  /*Background goes here!!! */
   background-image: -moz-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%);
-  background-image: -webkit-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%);
+  background-image: url("../textures/gplaypattern.png"); /* -webkit-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%); */
   background-image: -ms-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%);
-  margin-bottom: 200px; }
+
+ }
   .home_banner_area .box_1620 {
 
     border-radius: 12px;
     position: relative;
-    bottom: -200px;
+    bottom: -125px;
     background: #fff;
     padding: 30px;
     box-shadow: 0px 20px 80px 0px rgba(153, 153, 153, 0.3); }
