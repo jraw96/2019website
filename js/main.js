@@ -1,4 +1,4 @@
-var sections = ["home","about","experience","skills","travel","books"];
+var sections = ["home","about","experience","skills","vietnam","france","books"];
 
 function showSection(section) {
 
@@ -8,17 +8,25 @@ function showSection(section) {
         current.style.display = "none";
     }
 
+
     // reveal after
     for(var i = 0; i<=sections.length - 1; i++){
         if(section === sections[i]){
             let current = document.getElementById(section)
             current.style.display = "block"
 
-            let currentLabel = document.getElementById(section + '-label');
-            currentLabel.style.color = 'rgba(0, 0, 0, 1.9)';
+            if(section === 'france' || section === 'vietnam'){
+                let currentLabel = document.getElementById('travel-label');
+                currentLabel.style.color = 'rgba(0, 0, 0, 1.9)';
+            }else{
+                let currentLabel = document.getElementById(section + '-label');
+                currentLabel.style.color = 'rgba(0, 0, 0, 1.9)';
+            }
+         
         }
     }
 }
+
 
 function greyResume(){
     let currentLabel = document.getElementById('resume-label');
@@ -28,9 +36,14 @@ function greyResume(){
 
 function greyAllLables(){
     for(var i = 0; i<=sections.length - 1; i++){
-        
+
+        if(sections[i] === 'france' || sections[i] === 'vietnam'){
+            let currentLabel = document.getElementById('travel-label');
+            currentLabel.style.color = 'rgba(0, 0, 0, 0.5)';
+        }else{
             let currentLabel = document.getElementById(sections[i] + '-label');
             currentLabel.style.color = 'rgba(0, 0, 0, 0.5)';
+        }            
     }
 }
 
