@@ -243,3 +243,26 @@
   .stretch {
     padding-bottom: 140%;
   }
+
+
+
+/* Book Shelves */
+
+
+.gallery {
+  margin: 15px;
+
+  float: left;
+  width: 150px;
+}
+
+
+.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}

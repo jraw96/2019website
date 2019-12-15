@@ -22,10 +22,10 @@
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="album1.css">
 	<link rel="stylesheet" href="album2.css">
-<!-- 	<link rel="stylesheet" href="css/gallery.css"> -->
+	<!-- 	<link rel="stylesheet" href="css/gallery.css"> -->
 	<link rel="stylesheet" href="css/responsive.css">
 
-<!-- 	<link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet"> -->
+	<!-- 	<link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -38,30 +38,42 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
-							<li class="nav-item"><a class="nav-link" style="cursor: pointer" id="home-label"
-									onclick="greyAllLables(); showSection('home')">Home</a></li>
-							<li class="nav-item"><a class="nav-link" style="cursor: pointer" id="about-label"
-									onclick=" greyAllLables(); showSection('about')">About</a></li>
-							<li class="nav-item"><a class="nav-link" style="cursor: pointer; white-space: pre;" id="experience-label"
-									onclick="greyAllLables(); showSection('experience')">Experience</a></li>
-							<li class="nav-item"><a class="nav-link" style="cursor: pointer" id="skills-label"
-									onclick="greyAllLables(); showSection('skills')">Skills</a></li>
-							<li class="nav-item"><span class="nav-link"> | </span></li>
+							<li class="nav-item">
+								<a class="nav-link" style="cursor: pointer" id="home-label" onclick="greyAllLables(); showSection('home')">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" style="cursor: pointer" id="about-label" onclick=" greyAllLables(); showSection('about')">About</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" style="cursor: pointer; white-space: pre;" id="experience-label" onclick="greyAllLables(); showSection('experience')">Experience</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" style="cursor: pointer" id="skills-label" onclick="greyAllLables(); showSection('skills')">Skills</a>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link"> | </span>
+							</li>
 							<li class="nav-item submenu dropdown">
-								<a href="#" style="cursor: default" class="nav-link dropdown-toggle"
-									id="travel-label"
-									data-toggle="dropdown" role="button" aria-haspopup="true"
-									aria-expanded="false">Travel</a>
+								<a href="#" style="cursor: default" class="nav-link dropdown-toggle" id="travel-label" data-toggle="dropdown" role="button"
+								    aria-haspopup="true" aria-expanded="false">Travel</a>
 								<ul class="dropdown-menu">
-									<li class="nav-item" style="cursor: pointer"><a class="nav-link" onclick="greyAllLables(); showSection('vietnam')">Vietnam 2019</a></li>
-									<li class="nav-item" style="cursor: pointer"><a class="nav-link" onclick="greyAllLables(); showSection('france')">France 2019</a></li>
+									<li class="nav-item" style="cursor: pointer">
+										<a class="nav-link" onclick="greyAllLables(); showSection('vietnam')">Vietnam 2019</a>
+									</li>
+									<li class="nav-item" style="cursor: pointer">
+										<a class="nav-link" onclick="greyAllLables(); showSection('france')">France 2019</a>
+									</li>
 								</ul>
 							</li>
-							<li class="nav-item"><a class="nav-link" id="books-label" style="cursor: pointer"
-									onclick="greyAllLables(); showSection('books')">Books</a></li>
-							<li class="nav-item"><span class="nav-link"> | </span></li>
-							<li class="nav-item"><a class="nav-link" id="resume-label" style="cursor: pointer"
-									href="resume.pdf" target="_blank" onclick="greyResume()">Resume</a></li>
+							<li class="nav-item">
+								<a class="nav-link" id="books-label" style="cursor: pointer" onclick="greyAllLables(); showSection('books')">Books</a>
+							</li>
+							<li class="nav-item">
+								<span class="nav-link"> | </span>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" id="resume-label" style="cursor: pointer" href="resume.pdf" target="_blank" onclick="greyResume()">Resume</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -86,19 +98,39 @@
 								<h6>Hello, I'm </h6>
 								<h3>Jake Raw</h3>
 								<h4>Coffee · Books · Computer Engineering</h4>
-								<p>I'm a recent computer engineering gradate,
-									passionate about web development and cloud technologies.<br>
-								Feel free to explore this site to learn more about me.</p>
+								<p>I'm a recent computer engineering gradate, passionate about web development and cloud technologies.
+									<br> Feel free to explore this site to learn more about me.</p>
 								<ul class="list basic_info">
-									<li><a href="#"><i class="lnr lnr-envelope"></i> jtraw96@gmail.com</a></li>
-									<li><a href="#"><i class="lnr lnr-phone-handset"></i> (226) 338-6440</a></li>
+									<li>
+										<a href="#">
+											<i class="lnr lnr-envelope"></i> jtraw96@gmail.com</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="lnr lnr-phone-handset"></i> (226) 338-6440</a>
+									</li>
 
-									<li><a href="#"><i class="lnr lnr-home"></i>Toronto, Ontario</a></li>
+									<li>
+										<a href="#">
+											<i class="lnr lnr-home"></i>Toronto, Ontario</a>
+									</li>
 								</ul>
 								<ul class="list personal_social">
-									<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-									<li><a href="#"><i class="fa fa-github"></i></a></li>
-									<li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+									<li>
+										<a href="#">
+											<i class="fa fa-facebook"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-github"></i>
+										</a>
+									</li>
+									<li>
+										<a href="#">
+											<i class="fa fa-linkedin"></i>
+										</a>
+									</li>
 								</ul>
 							</div>
 						</div>
@@ -121,16 +153,13 @@
 						<div class=" fade-in">
 							<div class="personal_text">
 								<label style="color: rgba(0, 0, 0, 1.9); font-size: 20px">About me</label>
-								<p> I'm a 4th year computer engineering student with 16 months of co-op work exeperience
-									developing full stack solutions.
-									<br><br>
-									In my free time I enjoy playing water polo on the Western University varsity team
-									and leading video game tournaments in the Western Electroninc Gaming Association
-									(WEGA).
-									<br><br>
-									I'm currently tackling the list of 1001 Books to Read Before you Die. I recently
-									finished Saturday by Ian McEwan, and am currently reading Anna Karenina by Leo
-									Tolstoy. Great stuff.</p>
+								<p> I'm a 4th year computer engineering student with 16 months of co-op work exeperience developing full stack solutions.
+									<br>
+									<br> In my free time I enjoy playing water polo on the Western University varsity team and leading video game tournaments
+									in the Western Electroninc Gaming Association (WEGA).
+									<br>
+									<br> I'm currently tackling the list of 1001 Books to Read Before you Die. I recently finished Saturday by Ian McEwan,
+									and am currently reading Anna Karenina by Leo Tolstoy. Great stuff.</p>
 							</div>
 						</div>
 					</div>
@@ -144,382 +173,394 @@
 	<section class="home_banner_area page-load stretch" id="experience">
 
 		<!-- Job Experience -->
-		<div class="container box_1620 work-cards" style="max-width: 680px;"> 
+		<div class="container box_1620 work-cards" style="max-width: 680px;">
 
-				<div class="container fade-in" >
-						<div class="tabs_inner">
-								<ul class="nav nav-tabs" id="myTab" role="tablist">
-										<li class="nav-item">
-											<a onclick="showExperience()"  class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">My Experience</a>
-										</li>
-										<li class="nav-item">
-												<a onclick="showEducation()" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">My Education</a>
-											</li>
-									</ul>
+			<div class="container fade-in">
+				<div class="tabs_inner">
+					<ul class="nav nav-tabs" id="myTab" role="tablist">
+						<li class="nav-item">
+							<a onclick="showExperience()" class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
+							    aria-selected="true">My Experience</a>
+						</li>
+						<li class="nav-item">
+							<a onclick="showEducation()" class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
+							    aria-selected="false">My Education</a>
+						</li>
+					</ul>
 
 
-							<div class="tab-content" id="myTabContent">
-								<div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
-									<ul class="list">
-										<li>
-											<span></span>
-											<div class="media">
-												<div class="d-flex">
-													<div style="min-width: 200px;">
-															<p  style="text-align: right;">August 2019 to present</p>
-													</div>
-													
-												</div>
-												<div class="media-body">
-														<div class="media-body">
-																<h4><a href="#job1" style="color:#777777">RBC Royal Bank</a></h4>
-																<p>Full Stack Developer <br />Toronto, Ontario</p>
-															</div>
-														  
-												</div>
+					<div class="tab-content" id="myTabContent">
+						<div class="tab-pane fade show active" id="experiences" role="tabpanel" aria-labelledby="home-tab">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<div style="min-width: 200px;">
+												<p style="text-align: right;">August 2019 to present</p>
 											</div>
-										</li>
-										<li>
-											<span></span>
-											<div class="media">
-												<div class="d-flex">
-														<div style="min-width: 200px;">
-													<p style="text-align: right;">June 2018 to August 2019</p>
-													</div>
-												</div>
-												<div class="media-body">
-													<h4>Voice Flow</h4>
-													<p>Back End Developer <br />Toronto, Ontario</p>
-												</div>
+
+										</div>
+										<div class="media-body">
+											<div class="media-body">
+												<h4>
+													<a href="#job1" style="color:#777777">RBC Royal Bank</a>
+												</h4>
+												<p>Full Stack Developer
+													<br />Toronto, Ontario</p>
 											</div>
-										</li>
-										<li>
-										<span></span>
-											<div class="media">
-												<div class="d-flex">
-														<div style="min-width: 200px;">
-													<p style="text-align: right;">May 2018 to August 2018</p>
-													</div>
-												</div>
-												<div class="media-body">
-													<h4>RBC Amplify Software Developer</h4>
-													<p>Full Stack Developer <br />Toronto, Ontario</p>
-												</div>
+
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<div style="min-width: 200px;">
+												<p style="text-align: right;">June 2018 to August 2019</p>
 											</div>
-										</li>
-										<li>
-										<span></span>
-											<div class="media">
-												<div class="d-flex">
-														<div style="min-width: 200px;">
-													<p style="text-align: right;">January 2018 to April 2018</p>
-														</div>
-												</div>
-												<div class="media-body">
-													<h4>RBC Royal Bank</h4>
-													<p>Front End Developer<br />Toronto, Ontario</p>
-												</div>
+										</div>
+										<div class="media-body">
+											<h4>Voice Flow</h4>
+											<p>Back End Developer
+												<br />Toronto, Ontario</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<div style="min-width: 200px;">
+												<p style="text-align: right;">May 2018 to August 2018</p>
 											</div>
-										</li>
-										<li>
-										<span></span>
-											<div class="media">
-												<div class="d-flex">
-														<div style="min-width: 200px;">
-													<p style="text-align: right;">May 2017 to December 2017</p>
-														</div>
-												</div>
-												<div class="media-body">
-													<h4>RBC Royal Bank</h4>
-													<p>Back End Developer <br />Toronto, Ontario</p>
-												</div>
+										</div>
+										<div class="media-body">
+											<h4>RBC Amplify Software Developer</h4>
+											<p>Full Stack Developer
+												<br />Toronto, Ontario</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<div style="min-width: 200px;">
+												<p style="text-align: right;">January 2018 to April 2018</p>
 											</div>
-										</li>
-									</ul>
-								</div>
-								<div class="tab-pane fade show" id="education">
-									<ul class="list">
-										<li>
-											<span></span>
-											<div class="media">
-													<div class="d-flex">
-															<div style="min-width: 200px;">
-														<p style="text-align: right;">Apri0l 2019</p>
-															</div>
-													</div>
-												<div class="media-body">
-													<h4>Computer Engineer</h4>
-													<p>Shit about my degree <br />More SHit</p>
-												</div>
+										</div>
+										<div class="media-body">
+											<h4>RBC Royal Bank</h4>
+											<p>Front End Developer
+												<br />Toronto, Ontario</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<div style="min-width: 200px;">
+												<p style="text-align: right;">May 2017 to December 2017</p>
 											</div>
-										</li>
-									
-									</ul>
-								</div>
-							</div>
+										</div>
+										<div class="media-body">
+											<h4>RBC Royal Bank</h4>
+											<p>Back End Developer
+												<br />Toronto, Ontario</p>
+										</div>
+									</div>
+								</li>
+							</ul>
 						</div>
-					</div>
+						<div class="tab-pane fade show" id="education">
+							<ul class="list">
+								<li>
+									<span></span>
+									<div class="media">
+										<div class="d-flex">
+											<div style="min-width: 200px;">
+												<p style="text-align: right;">Apri0l 2019</p>
+											</div>
+										</div>
+										<div class="media-body">
+											<h4>Computer Engineer</h4>
+											<p>Shit about my degree
+												<br />More SHit</p>
+										</div>
+									</div>
+								</li>
 
-
-			</div>
-
-
-			<div id="education-card">
-		<div class="container box_1620 work-cards"> 
-				<div class=" fade-in">
-				<!-- Row 1 -->
-				<div class="media-body flexbox-container">
-					<div class="flex-row">
-						<div class="flex-column-left date-column">
-							<div>
-								<div class="left">
-									<h3> August 2019 - </h3>
-									<h3> Present </h3>
-								</div>
-							</div>
-						</div>
-						<div class="flex-column">
-							<!-- Experience Titles-->
-								<div class="right">
-										<h3>Western University</h3>
-										<i>Talk about university stuff</i>
-									
-										
-										<p>
-										  <span style="font-weight: bold">Tech Stack: </span>
-											Node.js, Angular 7 with <a href="https://ngrx.io/"  target="_blank">NgRx</a>: Reactive State Management inspired by Redux
-										</p>
-										
-										<p>
-											<span  style="font-weight: bold">Summary:</span>
-				 
-	
-								<br>
-												- Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating recovery times for incorrect payments. 
-									
-											 <br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
-										</p>
-								</div>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
-			</div>
+
+
 		</div>
 
-			<div id="experience-cards">
-		<!-- Job Experience -->
-		<div class="container box_1620 work-cards" id="job1"> 
-			<div class=" fade-in">
-			<!-- Row 1 -->
-			<div class="media-body flexbox-container">
-				<div class="flex-row">
-					<div class="flex-column-left date-column">
-						<div>
-							<div class="left">
-								<h3> August 2019 - </h3>
-								<h3> Present </h3>
+
+		<div id="education-card">
+			<div class="container box_1620 work-cards">
+				<div class=" fade-in">
+					<!-- Row 1 -->
+					<div class="media-body flexbox-container">
+						<div class="flex-row">
+							<div class="flex-column-left date-column">
+								<div>
+									<div class="left">
+										<h3> August 2019 - </h3>
+										<h3> Present </h3>
+									</div>
+								</div>
+							</div>
+							<div class="flex-column">
+								<!-- Experience Titles-->
+								<div class="right">
+									<h3>Western University</h3>
+									<i>Talk about university stuff</i>
+
+
+									<p>
+										<span style="font-weight: bold">Tech Stack: </span>
+										Node.js, Angular 7 with
+										<a href="https://ngrx.io/" target="_blank">NgRx</a>: Reactive State Management inspired by Redux
+									</p>
+
+									<p>
+										<span style="font-weight: bold">Summary:</span>
+
+
+										<br> - Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating
+										recovery times for incorrect payments.
+
+										<br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
+									</p>
+								</div>
 							</div>
 						</div>
 					</div>
-					<div class="flex-column">
-						<!-- Experience Titles-->
-							<div class="right">
+				</div>
+			</div>
+		</div>
+
+		<div id="experience-cards">
+			<!-- Job Experience -->
+			<div class="container box_1620 work-cards" id="job1">
+				<div class=" fade-in">
+					<!-- Row 1 -->
+					<div class="media-body flexbox-container">
+						<div class="flex-row">
+							<div class="flex-column-left date-column">
+								<div>
+									<div class="left">
+										<h3> August 2019 - </h3>
+										<h3> Present </h3>
+									</div>
+								</div>
+							</div>
+							<div class="flex-column">
+								<!-- Experience Titles-->
+								<div class="right">
 									<h3>RBC - Full Stack Developer</h3>
 									<i>Business Financial Services under Personal and Commercial Banking</i>
-								
-									
+
+
 									<p>
-									  <span style="font-weight: bold">Tech Stack: </span>
-										Node.js, Angular 7 with <a href="https://ngrx.io/"  target="_blank">NgRx</a>: Reactive State Management inspired by Redux
+										<span style="font-weight: bold">Tech Stack: </span>
+										Node.js, Angular 7 with
+										<a href="https://ngrx.io/" target="_blank">NgRx</a>: Reactive State Management inspired by Redux
 									</p>
-									
+
 									<p>
-										<span  style="font-weight: bold">Summary:</span>
-			 
+										<span style="font-weight: bold">Summary:</span>
 
-							<br>
-											- Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating recovery times for incorrect payments. 
-								
-										 <br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
+
+										<br> - Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating
+										recovery times for incorrect payments.
+
+										<br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
 									</p>
+								</div>
 							</div>
+						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-		</div>
 
-		
-		
 
-					<!-- Job Experience -->
-		<div class="container box_1620 work-cards"> 
+
+
+			<!-- Job Experience -->
+			<div class="container box_1620 work-cards">
 				<div class=" fade-in">
-				<!-- Row 1 -->
-				<div class="media-body flexbox-container">
-					<div class="flex-row">
-						<div class="flex-column-left date-column">
-							<div>
-								<div class="left">
-									<h3> May 2018 - </h3>
-									<h3> August 2018</h3>
+					<!-- Row 1 -->
+					<div class="media-body flexbox-container">
+						<div class="flex-row">
+							<div class="flex-column-left date-column">
+								<div>
+									<div class="left">
+										<h3> May 2018 - </h3>
+										<h3> August 2018</h3>
+									</div>
+								</div>
+							</div>
+							<div class="flex-column">
+								<!-- Experience Titles-->
+								<div class="right">
+									<h3>RBC - Amplify Software Developer </h3>
+									<i>Worked in Innovation under Technology and Operations</i>
+									• May 2018 - August 2018
+
+									<p>
+										<span style="font-weight: bold">Tech Stack: </span>
+										Node.js, React.js, Elasticsearch, Logstash & Kibana,
+									</p>
+
+									<p>
+										<span style="font-weight: bold">Summary:</span>
+
+
+										<br> - Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating
+										recovery times for incorrect payments.
+
+										<br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="flex-column">
-							<!-- Experience Titles-->
-								<div class="right">
-										<h3>RBC - Amplify Software Developer </h3>
-										<i>Worked in Innovation under Technology and Operations</i>
-										• May 2018 - August 2018
-										
-										<p>
-										  <span style="font-weight: bold">Tech Stack: </span>
-											Node.js, React.js, Elasticsearch, Logstash & Kibana,
-										</p>
-										
-										<p>
-											<span  style="font-weight: bold">Summary:</span>
-				 
-	
-								<br>
-												- Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating recovery times for incorrect payments. 
-									
-											 <br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
-										</p>
-								</div>
-						</div>
 					</div>
 				</div>
-			</div>
 			</div>
 
-					<!-- Job Experience -->
-	
-		<div class="container box_1620 work-cards"> 
+			<!-- Job Experience -->
+
+			<div class="container box_1620 work-cards">
 				<div class=" fade-in">
-				<!-- Row 1 -->
-				<div class="media-body flexbox-container">
-					<div class="flex-row">
-						<div class="flex-column-left date-column">
-							<div>
-								<div class="left">
-									<h3> May 2018 - </h3>
-									<h3> August 2018</h3>
+					<!-- Row 1 -->
+					<div class="media-body flexbox-container">
+						<div class="flex-row">
+							<div class="flex-column-left date-column">
+								<div>
+									<div class="left">
+										<h3> May 2018 - </h3>
+										<h3> August 2018</h3>
+									</div>
+								</div>
+							</div>
+							<div class="flex-column">
+								<!-- Experience Titles-->
+								<div class="right">
+									<h3>RBC - Amplify Software Developer </h3>
+									<i>Worked in Innovation under Technology and Operations</i>
+									• May 2018 - August 2018
+
+									<p>
+										<span style="font-weight: bold">Tech Stack: </span>
+										Node.js, React.js, Elasticsearch, Logstash & Kibana,
+									</p>
+
+									<p>
+										<span style="font-weight: bold">Summary:</span>
+
+
+										<br> - Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating
+										recovery times for incorrect payments.
+
+										<br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="flex-column">
-							<!-- Experience Titles-->
-								<div class="right">
-										<h3>RBC - Amplify Software Developer </h3>
-										<i>Worked in Innovation under Technology and Operations</i>
-										• May 2018 - August 2018
-										
-										<p>
-										  <span style="font-weight: bold">Tech Stack: </span>
-											Node.js, React.js, Elasticsearch, Logstash & Kibana,
-										</p>
-										
-										<p>
-											<span  style="font-weight: bold">Summary:</span>
-				 
-	
-								<br>
-												- Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating recovery times for incorrect payments. 
-									
-											 <br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
-										</p>
-								</div>
-						</div>
 					</div>
 				</div>
-			</div>
 			</div>
 
-					<!-- Job Experience -->
-		<div class="container box_1620 work-cards"> 
+			<!-- Job Experience -->
+			<div class="container box_1620 work-cards">
 				<div class=" fade-in">
-				<!-- Row 1 -->
-				<div class="media-body flexbox-container">
-					<div class="flex-row">
-						<div class="flex-column-left date-column">
-							<div>
-								<div class="left">
-									<h3> May 2018 - </h3>
-									<h3> August 2018</h3>
+					<!-- Row 1 -->
+					<div class="media-body flexbox-container">
+						<div class="flex-row">
+							<div class="flex-column-left date-column">
+								<div>
+									<div class="left">
+										<h3> May 2018 - </h3>
+										<h3> August 2018</h3>
+									</div>
+								</div>
+							</div>
+							<div class="flex-column">
+								<!-- Experience Titles-->
+								<div class="right">
+									<h3>RBC - Amplify Software Developer </h3>
+									<i>Worked in Innovation under Technology and Operations</i>
+									• May 2018 - August 2018
+
+									<p>
+										<span style="font-weight: bold">Tech Stack: </span>
+										Node.js, React.js, Elasticsearch, Logstash & Kibana,
+									</p>
+
+									<p>
+										<span style="font-weight: bold">Summary:</span>
+
+
+										<br> - Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating
+										recovery times for incorrect payments.
+
+										<br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="flex-column">
-							<!-- Experience Titles-->
-								<div class="right">
-										<h3>RBC - Amplify Software Developer </h3>
-										<i>Worked in Innovation under Technology and Operations</i>
-										• May 2018 - August 2018
-										
-										<p>
-										  <span style="font-weight: bold">Tech Stack: </span>
-											Node.js, React.js, Elasticsearch, Logstash & Kibana,
-										</p>
-										
-										<p>
-											<span  style="font-weight: bold">Summary:</span>
-				 
-	
-								<br>
-												- Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating recovery times for incorrect payments. 
-									
-											 <br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
-										</p>
-								</div>
-						</div>
 					</div>
 				</div>
-			</div>
 			</div>
 
-					<!-- Job Experience -->
-		<div class="container box_1620 work-cards"> 
+			<!-- Job Experience -->
+			<div class="container box_1620 work-cards">
 				<div class=" fade-in">
-				<!-- Row 1 -->
-				<div class="media-body flexbox-container">
-					<div class="flex-row">
-						<div class="flex-column-left date-column">
-							<div>
-								<div class="left">
-									<h3> May 2018 - </h3>
-									<h3> August 2018</h3>
+					<!-- Row 1 -->
+					<div class="media-body flexbox-container">
+						<div class="flex-row">
+							<div class="flex-column-left date-column">
+								<div>
+									<div class="left">
+										<h3> May 2018 - </h3>
+										<h3> August 2018</h3>
+									</div>
+								</div>
+							</div>
+							<div class="flex-column">
+								<!-- Experience Titles-->
+								<div class="right">
+									<h3>RBC - Full Stack Developer</h3>
+									<i>Business Financial Services under Personal and Commercial Banking</i>
+									• May 2018 - August 2018
+
+									<p>
+										<span style="font-weight: bold">Tech Stack: </span>
+										Node.js, Angular 7 with NGRX: Reactive State Management inspired by Redux
+									</p>
+
+									<p>
+										<span style="font-weight: bold">Summary:</span>
+
+
+										<br> - Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating
+										recovery times for incorrect payments.
+
+										<br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
+									</p>
 								</div>
 							</div>
 						</div>
-						<div class="flex-column">
-							<!-- Experience Titles-->
-								<div class="right">
-										<h3>RBC - Full Stack Developer</h3>
-										<i>Business Financial Services under Personal and Commercial Banking</i>
-										• May 2018 - August 2018
-										
-										<p>
-										  <span style="font-weight: bold">Tech Stack: </span>
-											Node.js, Angular 7 with NGRX: Reactive State Management inspired by Redux
-										</p>
-										
-										<p>
-											<span  style="font-weight: bold">Summary:</span>
-				 
-	
-								<br>
-												- Designed a new backend infrastructure to securely access and perform analyses on large datasets, accelerating recovery times for incorrect payments. 
-									
-											 <br> - Awarded a provisional patent for the algorithm implemented in our error detection strategy
-										</p>
-								</div>
-						</div>
 					</div>
 				</div>
-			</div>
 			</div>
 		</div>
 	</section>
@@ -527,173 +568,188 @@
 	<!--================ Skills Area =================-->
 	<section class="home_banner_area page-load  " id="skills">
 		<div class="container box_1620">
-		<div class="fade-in">
-			<div>
-		<h3>Skills</h3>
-				<p>I've learned a lot of technologies over the years and hope to never stop learning. It's fun to keep track of these concepts and track my progress; 
-						here are my curent top skills as a computer engineer: </p>
-					</div>
-			
-		
-			<div class="banner_inner d-flex align-items-center">
-				<!-- Programming Languages-->
-				<div class="banner_content">
-					<div class="media">
-						
+			<div class="fade-in">
+				<div>
+					<h3>Skills</h3>
+					<p>I've learned a lot of technologies over the years and hope to never stop learning. It's fun to keep track of these concepts
+						and track my progress; here are my curent top skills as a computer engineer: </p>
+				</div>
+
+
+				<div class="banner_inner d-flex align-items-center">
+					<!-- Programming Languages-->
+					<div class="banner_content">
+						<div class="media">
+
 							<div class="tools_expert">
-									<h4 style="margin-bottom: 30px;">Programming Languages</h4>
-									<div class="skill_main">
-										<div class="skill_item">
-											<h4>Javascript <span class="counter">90</span>%</h4>
-											<div class="progress_br">
-												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
+								<h4 style="margin-bottom: 30px;">Programming Languages</h4>
+								<div class="skill_main">
+									<div class="skill_item">
+										<h4>Javascript
+											<span class="counter">90</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</div>
-										<div class="skill_item">
-											<h4>Typescript <span class="counter">90</span>%</h4>
-											<div class="progress_br">
-												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
+									</div>
+									<div class="skill_item">
+										<h4>Typescript
+											<span class="counter">90</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</div>
-										<div class="skill_item">
-											<h4>Java <span class="counter">70</span>%</h4>
-											<div class="progress_br">
-												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
+									</div>
+									<div class="skill_item">
+										<h4>Java
+											<span class="counter">70</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</div>
-										<div class="skill_item">
-											<h4>Python <span class="counter">65</span>%</h4>
-											<div class="progress_br">
-												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
+									</div>
+									<div class="skill_item">
+										<h4>Python
+											<span class="counter">65</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</div>
-										<div class="skill_item">
-											<h4>C++ <span class="counter">60</span>%</h4>
-											<div class="progress_br">
-												<div class="progress">
-													<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
-												</div>
+									</div>
+									<div class="skill_item">
+										<h4>C++
+											<span class="counter">60</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
 											</div>
 										</div>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Programming concepts-->
+					<div class="banner_content">
+						<div class="media">
+
+							<div class="tools_expert">
+								<h4 style="margin-bottom: 30px;">Programming Concepts</h4>
+								<div class="skill_main">
+									<div class="skill_item">
+										<h4>Object Oriented Programming
+											<span class="counter">95</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>Cloud Computing
+											<span class="counter">85</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>Functional Programming
+											<span class="counter">75</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>Unit/Integration Testing
+											<span class="counter">70</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>Dynamic Programming
+											<span class="counter">55</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Web Technologies -->
+					<div class="banner_content">
+						<div class="media">
+
+							<div class="tools_expert">
+								<h4 style="margin-bottom: 30px;">Web Technologies</h4>
+								<div class="skill_main">
+									<div class="skill_item">
+										<h4>Node.js
+											<span class="counter">90</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>Angular 2.x+
+											<span class="counter">80</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>RxJS
+											<span class="counter">75</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>Redux
+											<span class="counter">75</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+									<div class="skill_item">
+										<h4>React.js
+											<span class="counter">50</span>%</h4>
+										<div class="progress_br">
+											<div class="progress">
+												<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
-
-				<!-- Programming concepts-->
-				<div class="banner_content">
-						<div class="media">
-
-								<div class="tools_expert">
-										<h4 style="margin-bottom: 30px;">Programming Concepts</h4>
-										<div class="skill_main">
-											<div class="skill_item">
-												<h4>Object Oriented Programming <span class="counter">95</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>Cloud Computing <span class="counter">85</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>Functional Programming <span class="counter">75</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>Unit/Integration Testing <span class="counter">70</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>Dynamic Programming <span class="counter">55</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-						</div>
-					</div>
-					
-				<!-- Web Technologies -->
-				<div class="banner_content">
-						<div class="media">
-	
-								<div class="tools_expert">
-										<h4 style="margin-bottom: 30px;">Web Technologies</h4>
-										<div class="skill_main">
-											<div class="skill_item">
-												<h4>Node.js <span class="counter">90</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>Angular 2.x+ <span class="counter">80</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>RxJS <span class="counter">75</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>Redux <span class="counter">75</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-											<div class="skill_item">
-												<h4>React.js <span class="counter">50</span>%</h4>
-												<div class="progress_br">
-													<div class="progress">
-														<div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-						</div>
-					</div>
 			</div>
 		</div>
-	</div>
 	</section>
 
 
@@ -724,232 +780,233 @@
 				</div>
 			</div>
 		</div>
-		
-		<div class="container box_1620 work-cards" style="margin-top: 20px"> 
+
+		<div class="container box_1620 work-cards" style="margin-top: 20px">
 			<div class=" fade-in">
 
-			<main>
-				<h2>Hanoi</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/hanoi7.jpg" alt="image1" data-fullsize="vietnam/hanoi7.jpg" data-subtext='Hanoi'>
-					<img src="vietnam/hanoi9.jpg" alt="image1" data-fullsize="vietnam/hanoi9.jpg" data-subtext='Hanoi'>
-					<img src="vietnam/hanoi10.jpg" alt="image1" data-fullsize="vietnam/hanoi10.jpg" data-subtext='Hanoi'>
-					<img src="vietnam/hanoi11.jpg" alt="image1" data-fullsize="vietnam/hanoi11.jpg" data-subtext='Hanoi'>
+				<main>
+					<h2>Hanoi</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/hanoi7.jpg" alt="image1" data-fullsize="vietnam/hanoi7.jpg" data-subtext='Hanoi'>
+						<img src="vietnam/hanoi9.jpg" alt="image1" data-fullsize="vietnam/hanoi9.jpg" data-subtext='Hanoi'>
+						<img src="vietnam/hanoi10.jpg" alt="image1" data-fullsize="vietnam/hanoi10.jpg" data-subtext='Hanoi'>
+						<img src="vietnam/hanoi11.jpg" alt="image1" data-fullsize="vietnam/hanoi11.jpg" data-subtext='Hanoi'>
 
 
-					<img src="vietnam/hanoi3.jpg" alt="image1" data-fullsize="vietnam/hanoi3.jpg" data-subtext='Hanoi'>
-					<img src="vietnam/hanoi4.jpg" alt="image1" data-fullsize="vietnam/hanoi4.jpg" data-subtext='Hanoi'>
-					<img src="vietnam/hanoi5.jpg" alt="image1" data-fullsize="vietnam/hanoi5.jpg" data-subtext='Hanoi'>
-					<img src="vietnam/hanoi8.jpg" alt="image1" data-fullsize="vietnam/hanoi8.jpg" data-subtext='Hanoi'>
-				</div>
-
-				<h2 style="margin-top: 30px;">Ninh Binh</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/ninbin1.jpg" alt="image1" data-fullsize="vietnam/ninbin1.jpg" data-subtext='Ninh Binh'>
-					<img src="vietnam/ninbin2.jpg" alt="image1" data-fullsize="vietnam/ninbin2.jpg" data-subtext='Ninh Binh'>
-					<img src="vietnam/ninbin3.jpg" alt="image1" data-fullsize="vietnam/ninbin3.jpg" data-subtext='Ninh Binh'>
-					<img src="vietnam/ninbin4.jpg" alt="image1" data-fullsize="vietnam/ninbin4.jpg" data-subtext='Ninh Binh'>
-
-					<img src="vietnam/ninbin5.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/ninbin5.jpg" data-subtext='Ninh Binh'>
-
-				
-				</div>
-
-				<h2 style="margin-top: 30px;">Ha Long Bay</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/halong11.jpg" alt="image1" data-fullsize="vietnam/halong11.jpg" data-subtext='Ha Long Bay'>
-					<img src="vietnam/halong2.jpg" alt="image1" data-fullsize="vietnam/halong2.jpg" data-subtext='Ha Long Bay'>
-					<img src="vietnam/halong4.jpg" alt="image1" data-fullsize="vietnam/halong4.jpg" data-subtext='Ha Long Bay'>
-					<img src="vietnam/halong9.jpg" alt="image1" data-fullsize="vietnam/halong9.jpg" data-subtext='Ha Long Bay'>
-
-					<img src="vietnam/halong5.jpg" alt="image1" data-fullsize="vietnam/halong5.jpg" data-subtext='Ha Long Bay'>
-					<img src="vietnam/halong7.jpg" alt="image1" data-fullsize="vietnam/halong7.jpg" data-subtext='Ha Long Bay'>
-					<img src="vietnam/halong8.jpg" alt="image1" data-fullsize="vietnam/halong8.jpg" data-subtext='Ha Long Bay'>
-					<img src="vietnam/halong10.jpg" alt="image1" data-fullsize="vietnam/halong10.jpg" data-subtext='Ha Long Bay'>
-	
-				</div>
-
-				<h2 style="margin-top: 30px;">Ha Giang</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/hagiang1.jpg" alt="image1" data-fullsize="vietnam/hagiang1.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang2.jpg" alt="image1" data-fullsize="vietnam/hagiang2.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang3.jpg" alt="image1" data-fullsize="vietnam/hagiang3.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang37.jpg" alt="image1" data-fullsize="vietnam/hagiang37.jpg" data-subtext='Hagiang'>
-
-					<img src="vietnam/hagiang6.jpg" alt="image1" data-fullsize="vietnam/hagiang6.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang7.jpg" alt="image1" data-fullsize="vietnam/hagiang7.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang8.jpg" alt="image1" data-fullsize="vietnam/hagiang8.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang10.jpg" alt="image1" data-fullsize="vietnam/hagiang10.jpg" data-subtext='Hagiang'>
-
-					<img src="vietnam/hagiang39.jpg" alt="image1" data-fullsize="vietnam/hagiang39.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang12.jpg" alt="image1" data-fullsize="vietnam/hagiang12.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang15.jpg" alt="image1" data-fullsize="vietnam/hagiang15.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang18.jpg" alt="image1" data-fullsize="vietnam/hagiang18.jpg" data-subtext='Hagiang'>
-
-					<!-- Panarama -->
-					<img src="vietnam/hagiang16.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang16.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang16.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang16.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
-
-					<img src="vietnam/hagiang14.jpg" alt="image1" data-fullsize="vietnam/hagiang14.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang17.jpg" alt="image1" data-fullsize="vietnam/hagiang17.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang38.jpg" alt="image1" data-fullsize="vietnam/hagiang38.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang9.jpg" alt="image1" data-fullsize="vietnam/hagiang9.jpg" data-subtext='Hagiang'>
-
-
-					<!-- Panarama -->
-					<img src="vietnam/hagiang13.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang13.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang13.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang13.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
-
-
-					<img src="vietnam/hagiang19.jpg" alt="image1" data-fullsize="vietnam/hagiang19.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang20.jpg" alt="image1" data-fullsize="vietnam/hagiang20.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang50.jpg" alt="image1" data-fullsize="vietnam/hagiang50.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang22.jpg" alt="image1" data-fullsize="vietnam/hagiang22.jpg" data-subtext='Hagiang'>
-
-					<img src="vietnam/hagiang24.jpg" alt="image1" data-fullsize="vietnam/hagiang24.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang25.jpg" alt="image1" data-fullsize="vietnam/hagiang25.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang26.jpg" alt="image1" data-fullsize="vietnam/hagiang26.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang27.jpg" alt="image1" data-fullsize="vietnam/hagiang27.jpg" data-subtext='Hagiang'>
-
-					<!-- Panarama -->
-					<img src="vietnam/hagiang23.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang23.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang23.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang23.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
-
-					<img src="vietnam/hagiang28.jpg" alt="image1" data-fullsize="vietnam/hagiang28.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang30.jpg" alt="image1" data-fullsize="vietnam/hagiang30.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang40.jpg" alt="image1" data-fullsize="vietnam/hagiang40.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang29.jpg" alt="image1" data-fullsize="vietnam/hagiang29.jpg" data-subtext='Hagiang'>
-
-					<img src="vietnam/hagiang32.jpg" alt="image1" data-fullsize="vietnam/hagiang32.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang33.jpg" alt="image1" data-fullsize="vietnam/hagiang33.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang31.jpg" alt="image1" data-fullsize="vietnam/hagiang31.jpg" data-subtext='Hagiang'>
-					<img src="vietnam/hagiang34.jpg" alt="image1" data-fullsize="vietnam/hagiang34.jpg" data-subtext='Hagiang'>
-				</div>
-
-				<h2 style="margin-top: 30px;">Phong Nha</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/phongna1.jpg" alt="image1" data-fullsize="vietnam/phongna1.jpg" data-subtext='Phong Nha'>
-					<img src="vietnam/phongna2.jpg" alt="image1" data-fullsize="vietnam/phongna2.jpg" data-subtext='Phong Nha'>
-					<img src="vietnam/phongna4.jpg" alt="image1" data-fullsize="vietnam/phongna4.jpg" data-subtext='Phong Nha'>
-					<img src="vietnam/phongna3.jpg" alt="image1" data-fullsize="vietnam/phongna3.jpg" data-subtext='Phong Nha'>
-
-
-				</div>
-
-				<h2 style="margin-top: 30px;">Hue</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/hue1.jpg" alt="image1" data-fullsize="vietnam/hue1.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue2.jpg" alt="image1" data-fullsize="vietnam/hue2.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue4.jpg" alt="image1" data-fullsize="vietnam/hue4.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue5.jpg" alt="image1" data-fullsize="vietnam/hue5.jpg" data-subtext='Hue'>
-				</div>
-
-				<h2 style="margin-top: 30px;">The Hai Van Pass - Hue to Hoi An</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/hue6.jpg" alt="image1" data-fullsize="vietnam/hue6.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue7.jpg" alt="image1" data-fullsize="vietnam/hue7.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue8.jpg" alt="image1" data-fullsize="vietnam/hue8.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue10.jpg" alt="image1" data-fullsize="vietnam/hue10.jpg" data-subtext='Hue'>
-
-					<img src="vietnam/hue12.jpg" alt="image1" data-fullsize="vietnam/hue12.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue14.jpg" alt="image1" data-fullsize="vietnam/hue14.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue15.jpg" alt="image1" data-fullsize="vietnam/hue15.jpg" data-subtext='Hue'>
-					<img src="vietnam/hue16.jpg" alt="image1" data-fullsize="vietnam/hue16.jpg" data-subtext='Hue'>
-				</div>
-
-				<h2 style="margin-top: 30px;">Hoi An</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/hoian1.jpg" alt="image1" data-fullsize="vietnam/hoian1.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian2.jpg" alt="image1" data-fullsize="vietnam/hoian2.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian6.jpg" alt="image1" data-fullsize="vietnam/hoian6.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian5.jpg" alt="image1" data-fullsize="vietnam/hoian5.jpg" data-subtext='Hoi An'>
-
-					<img src="vietnam/hoian9.jpg" alt="image1" data-fullsize="vietnam/hoian9.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian10.jpg" alt="image1" data-fullsize="vietnam/hoian10.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian14.jpg" alt="image1" data-fullsize="vietnam/hoian14.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian15.jpg" alt="image1" data-fullsize="vietnam/hoian15.jpg" data-subtext='Hoi An'>
-
-					<img src="vietnam/hoian11.jpg" alt="image1" data-fullsize="vietnam/hoian11.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian13.jpg" alt="image1" data-fullsize="vietnam/hoian13.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian12.jpg" alt="image1" data-fullsize="vietnam/hoian12.jpg" data-subtext='Hoi An'>
-					<img src="vietnam/hoian16.jpg" alt="image1" data-fullsize="vietnam/hoian16.jpg" data-subtext='Hoi An'>
-
-
-
-				</div>
-
-				<h2 style="margin-top: 30px;">Saigon</h2>
-				<div class="hes-gallery">
-					<img src="vietnam/saigon5.jpg" alt="image1" data-fullsize="vietnam/saigon5.jpg" data-subtext='Saigon'>
-					<img src="vietnam/saigon4.jpg" alt="image1" data-fullsize="vietnam/saigon4.jpg" data-subtext='Saigon'>
-					<div style="overflow: hidden">
-						<img src="vietnam/saigon2.jpg" style="width: 133.5%; margin-left: -12%;"alt="image1" data-fullsize="vietnam/saigon2.jpg" data-subtext='Saigon'>
+						<img src="vietnam/hanoi3.jpg" alt="image1" data-fullsize="vietnam/hanoi3.jpg" data-subtext='Hanoi'>
+						<img src="vietnam/hanoi4.jpg" alt="image1" data-fullsize="vietnam/hanoi4.jpg" data-subtext='Hanoi'>
+						<img src="vietnam/hanoi5.jpg" alt="image1" data-fullsize="vietnam/hanoi5.jpg" data-subtext='Hanoi'>
+						<img src="vietnam/hanoi8.jpg" alt="image1" data-fullsize="vietnam/hanoi8.jpg" data-subtext='Hanoi'>
 					</div>
-					<img src="vietnam/saigon3.jpg" alt="image1" data-fullsize="vietnam/saigon3.jpg" data-subtext='Saigon'>
+
+					<h2 style="margin-top: 30px;">Ninh Binh</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/ninbin1.jpg" alt="image1" data-fullsize="vietnam/ninbin1.jpg" data-subtext='Ninh Binh'>
+						<img src="vietnam/ninbin2.jpg" alt="image1" data-fullsize="vietnam/ninbin2.jpg" data-subtext='Ninh Binh'>
+						<img src="vietnam/ninbin3.jpg" alt="image1" data-fullsize="vietnam/ninbin3.jpg" data-subtext='Ninh Binh'>
+						<img src="vietnam/ninbin4.jpg" alt="image1" data-fullsize="vietnam/ninbin4.jpg" data-subtext='Ninh Binh'>
+
+						<img src="vietnam/ninbin5.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/ninbin5.jpg" data-subtext='Ninh Binh'>
+
+
+					</div>
+
+					<h2 style="margin-top: 30px;">Ha Long Bay</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/halong11.jpg" alt="image1" data-fullsize="vietnam/halong11.jpg" data-subtext='Ha Long Bay'>
+						<img src="vietnam/halong2.jpg" alt="image1" data-fullsize="vietnam/halong2.jpg" data-subtext='Ha Long Bay'>
+						<img src="vietnam/halong4.jpg" alt="image1" data-fullsize="vietnam/halong4.jpg" data-subtext='Ha Long Bay'>
+						<img src="vietnam/halong9.jpg" alt="image1" data-fullsize="vietnam/halong9.jpg" data-subtext='Ha Long Bay'>
+
+						<img src="vietnam/halong5.jpg" alt="image1" data-fullsize="vietnam/halong5.jpg" data-subtext='Ha Long Bay'>
+						<img src="vietnam/halong7.jpg" alt="image1" data-fullsize="vietnam/halong7.jpg" data-subtext='Ha Long Bay'>
+						<img src="vietnam/halong8.jpg" alt="image1" data-fullsize="vietnam/halong8.jpg" data-subtext='Ha Long Bay'>
+						<img src="vietnam/halong10.jpg" alt="image1" data-fullsize="vietnam/halong10.jpg" data-subtext='Ha Long Bay'>
+
+					</div>
+
+					<h2 style="margin-top: 30px;">Ha Giang</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/hagiang1.jpg" alt="image1" data-fullsize="vietnam/hagiang1.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang2.jpg" alt="image1" data-fullsize="vietnam/hagiang2.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang3.jpg" alt="image1" data-fullsize="vietnam/hagiang3.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang37.jpg" alt="image1" data-fullsize="vietnam/hagiang37.jpg" data-subtext='Hagiang'>
+
+						<img src="vietnam/hagiang6.jpg" alt="image1" data-fullsize="vietnam/hagiang6.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang7.jpg" alt="image1" data-fullsize="vietnam/hagiang7.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang8.jpg" alt="image1" data-fullsize="vietnam/hagiang8.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang10.jpg" alt="image1" data-fullsize="vietnam/hagiang10.jpg" data-subtext='Hagiang'>
+
+						<img src="vietnam/hagiang39.jpg" alt="image1" data-fullsize="vietnam/hagiang39.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang12.jpg" alt="image1" data-fullsize="vietnam/hagiang12.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang15.jpg" alt="image1" data-fullsize="vietnam/hagiang15.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang18.jpg" alt="image1" data-fullsize="vietnam/hagiang18.jpg" data-subtext='Hagiang'>
+
+						<!-- Panarama -->
+						<img src="vietnam/hagiang16.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang16.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang16.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang16.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang16.jpg" data-subtext='Hagiang'>
+
+						<img src="vietnam/hagiang14.jpg" alt="image1" data-fullsize="vietnam/hagiang14.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang17.jpg" alt="image1" data-fullsize="vietnam/hagiang17.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang38.jpg" alt="image1" data-fullsize="vietnam/hagiang38.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang9.jpg" alt="image1" data-fullsize="vietnam/hagiang9.jpg" data-subtext='Hagiang'>
+
+
+						<!-- Panarama -->
+						<img src="vietnam/hagiang13.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang13.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang13.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang13.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang13.jpg" data-subtext='Hagiang'>
+
+
+						<img src="vietnam/hagiang19.jpg" alt="image1" data-fullsize="vietnam/hagiang19.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang20.jpg" alt="image1" data-fullsize="vietnam/hagiang20.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang50.jpg" alt="image1" data-fullsize="vietnam/hagiang50.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang22.jpg" alt="image1" data-fullsize="vietnam/hagiang22.jpg" data-subtext='Hagiang'>
+
+						<img src="vietnam/hagiang24.jpg" alt="image1" data-fullsize="vietnam/hagiang24.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang25.jpg" alt="image1" data-fullsize="vietnam/hagiang25.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang26.jpg" alt="image1" data-fullsize="vietnam/hagiang26.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang27.jpg" alt="image1" data-fullsize="vietnam/hagiang27.jpg" data-subtext='Hagiang'>
+
+						<!-- Panarama -->
+						<img src="vietnam/hagiang23.jpg" style='width: 411.5%;' alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang23.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang23.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang23.jpg" style="opacity: 0" alt="image1" data-fullsize="vietnam/hagiang23.jpg" data-subtext='Hagiang'>
+
+						<img src="vietnam/hagiang28.jpg" alt="image1" data-fullsize="vietnam/hagiang28.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang30.jpg" alt="image1" data-fullsize="vietnam/hagiang30.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang40.jpg" alt="image1" data-fullsize="vietnam/hagiang40.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang29.jpg" alt="image1" data-fullsize="vietnam/hagiang29.jpg" data-subtext='Hagiang'>
+
+						<img src="vietnam/hagiang32.jpg" alt="image1" data-fullsize="vietnam/hagiang32.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang33.jpg" alt="image1" data-fullsize="vietnam/hagiang33.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang31.jpg" alt="image1" data-fullsize="vietnam/hagiang31.jpg" data-subtext='Hagiang'>
+						<img src="vietnam/hagiang34.jpg" alt="image1" data-fullsize="vietnam/hagiang34.jpg" data-subtext='Hagiang'>
+					</div>
+
+					<h2 style="margin-top: 30px;">Phong Nha</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/phongna1.jpg" alt="image1" data-fullsize="vietnam/phongna1.jpg" data-subtext='Phong Nha'>
+						<img src="vietnam/phongna2.jpg" alt="image1" data-fullsize="vietnam/phongna2.jpg" data-subtext='Phong Nha'>
+						<img src="vietnam/phongna4.jpg" alt="image1" data-fullsize="vietnam/phongna4.jpg" data-subtext='Phong Nha'>
+						<img src="vietnam/phongna3.jpg" alt="image1" data-fullsize="vietnam/phongna3.jpg" data-subtext='Phong Nha'>
+
+
+					</div>
+
+					<h2 style="margin-top: 30px;">Hue</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/hue1.jpg" alt="image1" data-fullsize="vietnam/hue1.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue2.jpg" alt="image1" data-fullsize="vietnam/hue2.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue4.jpg" alt="image1" data-fullsize="vietnam/hue4.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue5.jpg" alt="image1" data-fullsize="vietnam/hue5.jpg" data-subtext='Hue'>
+					</div>
+
+					<h2 style="margin-top: 30px;">The Hai Van Pass - Hue to Hoi An</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/hue6.jpg" alt="image1" data-fullsize="vietnam/hue6.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue7.jpg" alt="image1" data-fullsize="vietnam/hue7.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue8.jpg" alt="image1" data-fullsize="vietnam/hue8.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue10.jpg" alt="image1" data-fullsize="vietnam/hue10.jpg" data-subtext='Hue'>
+
+						<img src="vietnam/hue12.jpg" alt="image1" data-fullsize="vietnam/hue12.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue14.jpg" alt="image1" data-fullsize="vietnam/hue14.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue15.jpg" alt="image1" data-fullsize="vietnam/hue15.jpg" data-subtext='Hue'>
+						<img src="vietnam/hue16.jpg" alt="image1" data-fullsize="vietnam/hue16.jpg" data-subtext='Hue'>
+					</div>
+
+					<h2 style="margin-top: 30px;">Hoi An</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/hoian1.jpg" alt="image1" data-fullsize="vietnam/hoian1.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian2.jpg" alt="image1" data-fullsize="vietnam/hoian2.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian6.jpg" alt="image1" data-fullsize="vietnam/hoian6.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian5.jpg" alt="image1" data-fullsize="vietnam/hoian5.jpg" data-subtext='Hoi An'>
+
+						<img src="vietnam/hoian9.jpg" alt="image1" data-fullsize="vietnam/hoian9.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian10.jpg" alt="image1" data-fullsize="vietnam/hoian10.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian14.jpg" alt="image1" data-fullsize="vietnam/hoian14.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian15.jpg" alt="image1" data-fullsize="vietnam/hoian15.jpg" data-subtext='Hoi An'>
+
+						<img src="vietnam/hoian11.jpg" alt="image1" data-fullsize="vietnam/hoian11.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian13.jpg" alt="image1" data-fullsize="vietnam/hoian13.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian12.jpg" alt="image1" data-fullsize="vietnam/hoian12.jpg" data-subtext='Hoi An'>
+						<img src="vietnam/hoian16.jpg" alt="image1" data-fullsize="vietnam/hoian16.jpg" data-subtext='Hoi An'>
 
 
 
-				</div>
-		
-			</main>
-		</div>
+					</div>
+
+					<h2 style="margin-top: 30px;">Saigon</h2>
+					<div class="hes-gallery">
+						<img src="vietnam/saigon5.jpg" alt="image1" data-fullsize="vietnam/saigon5.jpg" data-subtext='Saigon'>
+						<img src="vietnam/saigon4.jpg" alt="image1" data-fullsize="vietnam/saigon4.jpg" data-subtext='Saigon'>
+						<div style="overflow: hidden">
+							<img src="vietnam/saigon2.jpg" style="width: 133.5%; margin-left: -12%;" alt="image1" data-fullsize="vietnam/saigon2.jpg"
+							    data-subtext='Saigon'>
+						</div>
+						<img src="vietnam/saigon3.jpg" alt="image1" data-fullsize="vietnam/saigon3.jpg" data-subtext='Saigon'>
+
+
+
+					</div>
+
+				</main>
+			</div>
 		</div>
 	</section>
 
-		<!--================ Travel Area =================-->
-		<section class="home_banner_area page-load " id="france">
-			<div class="container box_1620">
-				<div class="banner_inner d-flex align-items-center">
-					<div class="banner_content">
-						<div class="media">
-	
-							<img style="max-width: 47%; margin-right: 4%" src="franceJourney.png" alt="">
-	
-							<div class="media-body fade-in">
-								<div class="personal_text">
-									<h3> France 2019 </h3>
-									<p>This is a introductory description of France</p>
-									<p>I visted the following places:</p>
-									<p>1. Paris</p>
-									<p>2. Annecy</p>
-									<p>3. Nice</p>
-									<p>4. Saint-Tropez</p>
-									<p>5. Monaco</p>
-									<p>6. Bordeaux</p>
-									<p>7. Saint-Emillion</p>
-								</div>
+	<!--================ Travel Area =================-->
+	<section class="home_banner_area page-load " id="france">
+		<div class="container box_1620">
+			<div class="banner_inner d-flex align-items-center">
+				<div class="banner_content">
+					<div class="media">
+
+						<img style="max-width: 47%; margin-right: 4%" src="franceJourney.png" alt="">
+
+						<div class="media-body fade-in">
+							<div class="personal_text">
+								<h3> France 2019 </h3>
+								<p>This is a introductory description of France</p>
+								<p>I visted the following places:</p>
+								<p>1. Paris</p>
+								<p>2. Annecy</p>
+								<p>3. Nice</p>
+								<p>4. Saint-Tropez</p>
+								<p>5. Monaco</p>
+								<p>6. Bordeaux</p>
+								<p>7. Saint-Emillion</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+		</div>
 
-			<div class="container box_1620 work-cards" style="margin-top: 20px"> 
-				<div class=" fade-in">
+		<div class="container box_1620 work-cards" style="margin-top: 20px">
+			<div class=" fade-in">
 
 				<main>
 					<h2>Paris</h2>
 					<div class="hes-gallery">
-						<img src="france/paris1.jpg" alt="image1" data-fullsize="france/paris1.jpg"  data-subtext='Paris'>
-						<img src="france/paris2.jpg" alt="image1" data-fullsize="france/paris2.jpg"  data-subtext='Paris'>
-						<img src="france/paris9.jpg" alt="image1" data-fullsize="france/paris9.jpg"  data-subtext='Paris'>
-						<img src="france/paris6.jpg" alt="image1" data-fullsize="france/paris6.jpg"  data-subtext='Paris'>
+						<img src="france/paris1.jpg" alt="image1" data-fullsize="france/paris1.jpg" data-subtext='Paris'>
+						<img src="france/paris2.jpg" alt="image1" data-fullsize="france/paris2.jpg" data-subtext='Paris'>
+						<img src="france/paris9.jpg" alt="image1" data-fullsize="france/paris9.jpg" data-subtext='Paris'>
+						<img src="france/paris6.jpg" alt="image1" data-fullsize="france/paris6.jpg" data-subtext='Paris'>
 
-						<img src="france/paris5.jpg" alt="image1" data-fullsize="france/paris5.jpg"  data-subtext='Paris'>
-						<img src="france/paris12.jpg" alt="image1" data-fullsize="france/paris12.jpg"  data-subtext='Paris'>
-						<img src="france/paris15.jpg" alt="image1" data-fullsize="france/paris15.jpg"  data-subtext='Paris'>
-						<img src="france/paris14.jpg" alt="image1" data-fullsize="france/paris14.jpg"  data-subtext='Paris'>
+						<img src="france/paris5.jpg" alt="image1" data-fullsize="france/paris5.jpg" data-subtext='Paris'>
+						<img src="france/paris12.jpg" alt="image1" data-fullsize="france/paris12.jpg" data-subtext='Paris'>
+						<img src="france/paris15.jpg" alt="image1" data-fullsize="france/paris15.jpg" data-subtext='Paris'>
+						<img src="france/paris14.jpg" alt="image1" data-fullsize="france/paris14.jpg" data-subtext='Paris'>
 
-						<img src="france/paris13.jpg" alt="image1" data-fullsize="france/paris13.jpg"  data-subtext='Paris'>
-						<img src="france/paris10.jpg" alt="image1" data-fullsize="france/paris10.jpg"  data-subtext='Paris'>
-						<img src="france/paris11.jpg" alt="image1" data-fullsize="france/paris11.jpg"  data-subtext='Paris'>
-						<img src="france/paris8.jpg" alt="image1" data-fullsize="france/paris8.jpg"  data-subtext='Paris'>
+						<img src="france/paris13.jpg" alt="image1" data-fullsize="france/paris13.jpg" data-subtext='Paris'>
+						<img src="france/paris10.jpg" alt="image1" data-fullsize="france/paris10.jpg" data-subtext='Paris'>
+						<img src="france/paris11.jpg" alt="image1" data-fullsize="france/paris11.jpg" data-subtext='Paris'>
+						<img src="france/paris8.jpg" alt="image1" data-fullsize="france/paris8.jpg" data-subtext='Paris'>
 
 					</div>
 
@@ -959,35 +1016,35 @@
 						<img src="france/annecy3.jpg" alt="image1" data-fullsize="france/annecy3.jpg" data-subtext='Annecy'>
 						<img src="france/annecy6.jpg" alt="image1" data-fullsize="france/annecy6.jpg" data-subtext='Annecy'>
 						<img src="france/annecy8.jpg" alt="image1" data-fullsize="france/annecy8.jpg" data-subtext='Annecy'>
-						<img src="france/annecy5.jpg" style='width: 178%;'  alt="image1" data-fullsize="france/annecy5.jpg" data-subtext='Annecy'>
-						<img src="france/annecy2.jpg"  style='opacity: 0;' alt="image1" data-fullsize="france/annecy2.jpg" data-subtext='Annecy'>
+						<img src="france/annecy5.jpg" style='width: 178%;' alt="image1" data-fullsize="france/annecy5.jpg" data-subtext='Annecy'>
+						<img src="france/annecy2.jpg" style='opacity: 0;' alt="image1" data-fullsize="france/annecy2.jpg" data-subtext='Annecy'>
 						<img src="france/annecy7.jpg" style="margin-left: -12%" alt="image1" data-fullsize="france/annecy7.jpg" data-subtext='Annecy'>
 						<img src="france/annecy4.jpg" alt="image1" data-fullsize="france/annecy4.jpg" data-subtext='Annecy'>
 						<img src="france/annecy9.jpg" style="width: 411.5% !important;" alt="image1" data-fullsize="france/annecy9.jpg" data-subtext='Annecy'>
 
-		
+
 					</div>
 
 					<h2 style="margin-top: 30px;">Nice</h2>
 					<div class="hes-gallery">
 						<div style="overflow: hidden">
-								<img style="width: 112.5%; margin-left: -10%" src="france/nice4.jpg" alt="image1" data-fullsize="france/nice4.jpg" data-subtext='Nice'>
+							<img style="width: 112.5%; margin-left: -10%" src="france/nice4.jpg" alt="image1" data-fullsize="france/nice4.jpg" data-subtext='Nice'>
 						</div>
 						<div style="overflow: hidden">
-								<img style="width: 112.5%; margin-left: -10%" src="france/nice3.jpg" alt="image1" data-fullsize="france/nice3.jpg" data-subtext='Nice'>
+							<img style="width: 112.5%; margin-left: -10%" src="france/nice3.jpg" alt="image1" data-fullsize="france/nice3.jpg" data-subtext='Nice'>
 						</div>
-						<img src="france/nice6.jpg" alt="image3" data-fullsize="france/nice6.jpg"  data-subtext="Nice">
-						<img src="france/nice5.jpg" alt="image2" data-fullsize="france/nice5.jpg"  data-subtext="Nice">
+						<img src="france/nice6.jpg" alt="image3" data-fullsize="france/nice6.jpg" data-subtext="Nice">
+						<img src="france/nice5.jpg" alt="image2" data-fullsize="france/nice5.jpg" data-subtext="Nice">
 
-				
-						<img src="france/nice7.jpg" style="width: 411.5% !important;" alt="image3" data-fullsize="france/nice7.jpg"  data-subtext="Nice">
+
+						<img src="france/nice7.jpg" style="width: 411.5% !important;" alt="image3" data-fullsize="france/nice7.jpg" data-subtext="Nice">
 					</div>
 
 					<h2 style="margin-top: 30px;">Saint-Tropez</h2>
 					<div class="hes-gallery">
-						
+
 						<img src="france/tropez2.jpg" style='width: 203.75%;' alt="image1" data-fullsize="france/tropez2.jpg" data-subtext='Saint-Tropez'>
-						<img src="france/tropez2.jpg" style='opacity: 0;'  alt="image1" data-fullsize="france/tropez2.jpg" data-subtext='Saint-Tropez'>
+						<img src="france/tropez2.jpg" style='opacity: 0;' alt="image1" data-fullsize="france/tropez2.jpg" data-subtext='Saint-Tropez'>
 						<div style="overflow: hidden">
 							<img src="france/tropez7.jpg" style="width:102%" alt="image1" data-fullsize="france/tropez7.jpg" data-subtext='Saint-Tropez'>
 						</div>
@@ -1005,7 +1062,7 @@
 						<img src="france/tropez6.jpg" style='width: 203.75%;' alt="image1" data-fullsize="france/tropez6.jpg" data-subtext='Saint-Tropez'>
 						<img src="france/tropez6.jpg" style='opacity: 0;' alt="image1" data-fullsize="france/tropez6.jpg" data-subtext='Saint-Tropez'>
 
-				
+
 					</div>
 
 					<h2 style="margin-top: 30px;">Monaco</h2>
@@ -1016,22 +1073,24 @@
 						<div style="    overflow: hidden;
 						max-width: 100%;
 						max-height: 89%;">
-						<img src="france/monaco6.jpg" alt="image1" data-fullsize="france/monaco6.jpg" data-subtext='Monaco'>
-					</div>
-						<img src="france/monaco3.jpg" style="width: 411.5% !important; margin-top: -8.5%;" alt="image1" data-fullsize="france/monaco3.jpg" data-subtext='Monaco'>
-		
+							<img src="france/monaco6.jpg" alt="image1" data-fullsize="france/monaco6.jpg" data-subtext='Monaco'>
+						</div>
+						<img src="france/monaco3.jpg" style="width: 411.5% !important; margin-top: -8.5%;" alt="image1" data-fullsize="france/monaco3.jpg"
+						    data-subtext='Monaco'>
+
 					</div>
 
 					<h2 style="margin-top: 30px;">Bordeaux</h2>
 					<div class="hes-gallery">
-							<div style="overflow: hidden">
-						<img src="france/bordeaux1.jpg" style="width: 112.5%; margin-left: -10%"  alt="image1" data-fullsize="france/bordeaux1.jpg" data-subtext='Bordeaux'>
+						<div style="overflow: hidden">
+							<img src="france/bordeaux1.jpg" style="width: 112.5%; margin-left: -10%" alt="image1" data-fullsize="france/bordeaux1.jpg"
+							    data-subtext='Bordeaux'>
 						</div>
 						<img src="france/bordeaux6.jpg" alt="image1" data-fullsize="france/bordeaux6.jpg" data-subtext='Bordeaux'>
 
 						<img src="france/bordeaux5.jpg" alt="image1" data-fullsize="france/bordeaux5.jpg" data-subtext='Bordeaux'>
 						<img src="france/bordeaux4.jpg" alt="image1" data-fullsize="france/bordeaux4.jpg" data-subtext='Bordeaux'>
-						<img src="france/bordeaux3.jpg" style="width: 411.5% !important"  alt="image1" data-fullsize="france/bordeaux3.jpg" data-subtext='Bordeaux'>
+						<img src="france/bordeaux3.jpg" style="width: 411.5% !important" alt="image1" data-fullsize="france/bordeaux3.jpg" data-subtext='Bordeaux'>
 
 					</div>
 
@@ -1051,13 +1110,13 @@
 
 
 
-					
+
 					</div>
-			
+
 				</main>
 			</div>
-			</div>
-		</section>
+		</div>
+	</section>
 
 
 	<!--================ About Area =================-->
@@ -1065,124 +1124,193 @@
 		<div class="container box_1620">
 			<div class="banner_inner d-flex align-items-center">
 
-						<div class="flex-books">
-							<div class="flex-books-column" style="font-family: courier; font-size: 24px;">
-								reading is sick, yo
-							</div>
-							<div class="flex-books-column">
-								I talk about my backstory with books
-							</div>
+				<div class="flex-books">
+					<div class="flex-books-column" style="font-family: courier; font-size: 24px;">
+						reading is sick, yo
+					</div>
+					<div class="flex-books-column">
+						I talk about my backstory with books
+					</div>
 				</div>
 			</div>
 		</div>
 
 		<div class="container box_1620" style="margin-top: 24px; margin-bottom: 24px">
 			<h3>Top 3 Books</h3>
-			<p style="margin-bottom: 20px">These are my favourite books of all time so far. They stand out deeply to me because I can still remember clearly the feelings and emotions reading them, months and years after having last read a page from them.  </p>
+			<p style="margin-bottom: 20px">These are my favourite books of all time so far. They stand out deeply to me because I can still remember clearly the
+				feelings and emotions reading them, months and years after having last read a page from them. </p>
 			<div class="banner_inner d-flex align-items-center">
-					<div class="flex-books">
-							<div class="flex-top-3 ">
-								<h4>The Count of Monte Christo</h4>
-								<img class="top-book" src="books/montechristo.jpg">
-							</div>
-							<div class="flex-top-3 ">
-								<h4>Anna Karenina</h4>
-								<img class="top-book"  src="books/karenina.jpg">
-							</div>
-							<div class="flex-top-3 ">
-								<h4>The Three Muskateers</h4>	
-								<img class="top-book"  src="books/muskateers.jpg">	
-							</div>
+				<div class="flex-books">
+					<div class="flex-top-3 ">
+						<h4>The Count of Monte Christo</h4>
+						<img class="top-book" src="books/montechristo.jpg">
+					</div>
+					<div class="flex-top-3 ">
+						<h4>Anna Karenina</h4>
+						<img class="top-book" src="books/karenina.jpg">
+					</div>
+					<div class="flex-top-3 ">
+						<h4>The Three Muskateers</h4>
+						<img class="top-book" src="books/muskateers.jpg">
+					</div>
 				</div>
 			</div>
 			<hr>
 			<h5>1. The Count of Monte Christo</h5>
-			<b>Author: </b> Alexandre Dumas<br>
-			<b>Pages: </b> 1427 <br>
-			<b>Read: </b>2017<br>
-			<b>Favourite passage: </b> <i>“By degrees the sun disappeared behind the western horizon; but as though to prove truth of fanciful ideas in heathen mythology, it’s indiscreet rays reappeared on the summit of each wave, seeming to reveal that the god of fire had just enfolded himself in the bosom of Amphitrite, who in vain endeavored to hide her lover beneath her azure mantle.”
-				</i> <br><br>
-
-			The Count of Monte Christo is an epic story of revenge, romance and extroadinary 
-			character development. Starting in 1844 Alexandre Dumas wrote and published over 
-			18 chronological installments in magazines and journals, keeping readers engaged with main plots and sub-plots until finally
-			finishing in 1846. When the main story had 
-			finally ended and all issues compiled, what was left was a magnificent achievement of story telling 
-			and a testament to how plot diversity, woven together at a grand scale over time, can be elegantly resolved in a single ending  
-			(I'm looking at you Game of Thrones, HBO...) <br>
-
-			With of the 20+ charaters and diverse webs of relations, Dumas remarkably was able to make sure that
-			each character at one point had a pivotal role or significant influence; no perspective failed to leave an impact 
-			on the protagonist's journey. Realizing this by the end of the book was incredibly satisfying and brilliantly done by Dumas. <br>
-
-			The writing style of Dumas is a constant balancing flow of vivid descriptions and fluid dialogue. Occasionally the book
-			read itself so naturally I felt I could have been in the scene, listening quietly from somewhere. 
-			Overall a timeless and genre defining book, and the only story to move me when I realized it's all I'll ever be able 
-			to read about of the lives of these characters. 
+			<b>Author: </b> Alexandre Dumas
+			<br>
+			<b>Pages: </b> 1427
+			<br>
+			<b>Read: </b>2017
+			<br>
+			<b>Favourite passage: </b>
+			<i>“By degrees the sun disappeared behind the western horizon; but as though to prove truth of fanciful ideas in heathen
+				mythology, it’s indiscreet rays reappeared on the summit of each wave, seeming to reveal that the god of fire had just
+				enfolded himself in the bosom of Amphitrite, who in vain endeavored to hide her lover beneath her azure mantle.”
+			</i>
+			<br>
+			<br> The Count of Monte Christo is an epic story of revenge, romance and extroadinary character development. Starting in 1844
+			Alexandre Dumas wrote and published over 18 chronological installments in magazines and journals, keeping readers engaged
+			with main plots and sub-plots until finally finishing in 1846. When the main story had finally ended and all issues compiled,
+			what was left was a magnificent achievement of story telling and a testament to how plot diversity, woven together at
+			a grand scale over time, can be elegantly resolved in a single ending (I'm looking at you Game of Thrones, HBO...)
+			<br> With of the 20+ charaters and diverse webs of relations, Dumas remarkably was able to make sure that each character at
+			one point had a pivotal role or significant influence; no perspective failed to leave an impact on the protagonist's journey.
+			Realizing this by the end of the book was incredibly satisfying and brilliantly done by Dumas.
+			<br> The writing style of Dumas is a constant balancing flow of vivid descriptions and fluid dialogue. Occasionally the book
+			read itself so naturally I felt I could have been in the scene, listening quietly from somewhere. Overall a timeless and
+			genre defining book, and the only story to move me when I realized it's all I'll ever be able to read about of the lives
+			of these characters.
 
 			<hr>
 			<h5>2. Anna Karenina</h5>
-			<b>Author: </b> Leo Tolstoy<br>
-			<b>Pages: </b> 864 <br>
-			<b>Read: </b>2018<br>
-			<b>Favourite passage: </b> <i>“He stepped down, trying not to look long at her, as if she were the sun, yet he saw her, 
-				like the sun, even without looking.”
-				</i><br><br>
+			<b>Author: </b> Leo Tolstoy
+			<br>
+			<b>Pages: </b> 864
+			<br>
+			<b>Read: </b>2018
+			<br>
+			<b>Favourite passage: </b>
+			<i>“He stepped down, trying not to look long at her, as if she were the sun, yet he saw her, like the sun, even without looking.”
+			</i>
+			<br>
+			<br> Anna Karenina is a novel about the lives of two people, Anna Karenina and Konstantin Dmitrievich Levin (who became referred
+			to mostly as just Levin), living in 1800's Russia. Both of these characters go through remarkable plots individually,
+			but what made this book leave such an impact on me was witnessing how Tolstoy used the conflicts faced by each character,
+			to weave into and out of the other's life directly and indirectly, and reveal themes and ideas I couldn't see elsewise.
+			While reading in Anna's character circle I was able to ask questions that I could find answers and demonstrations of in
+			Levin's circle, and vice versa while reading in Levin's. I began realizing this more and more throughout the book, until
+			by the end I was mind blown by how much my appreciation of Anna's story was because of Levin and Levin's story because
+			of Anna.
+			<br>Tolstoy's writing style is already acclaimed and my only contribution to further this is to just commend that the way
+			he can capture ordinary, simple details about emotions, settings or life and reveal how truly remarkable they are is incredible.
+			Tolstoy lets the reader so easily and smoothly slip between the many (there are many) perspectives in the story. At one
+			point there was a chapter from a dog's perspective running in a countryside that I didn't realize until I was back to
+			reading from a person's. My only spoiler of this book (it's pretty much an obsolete spoiler, but stop reading here to
+			avoid it) is to say that it was a good dog.
 
-				Anna Karenina is a novel about the lives of two people, Anna Karenina and Konstantin Dmitrievich Levin (who became referred
-				to mostly as just Levin), living in 1800's Russia. Both of these characters go through remarkable plots individually, but what 
-				made this book leave such an impact on me was witnessing how Tolstoy used the conflicts faced by each character, 
-				to weave into and out of the other's life directly and indirectly, and reveal themes and ideas I couldn't see elsewise. 
-				While reading in Anna's character circle I was able to ask questions that I could find answers and demonstrations of in Levin's circle, and 
-				vice versa while reading in Levin's. I began realizing this more and more throughout the book, until by the end I was mind blown by how much 
-				my appreciation of Anna's story was because of Levin and Levin's story because of Anna. <br>Tolstoy's writing style is already acclaimed and my
-				only contribution to further this is to just commend that the way he can capture ordinary, simple details about emotions, settings or life and reveal
-				how truly remarkable they are is incredible.
-				Tolstoy lets the reader so easily and smoothly slip between the many (there are many) perspectives in the story. At one point there was 
-				a chapter from a dog's perspective running in a countryside that I didn't realize until I was back to reading from a person's. My only spoiler
-				of this book (it's pretty much an obsolete spoiler, but stop reading here to avoid it) is to say that it was a good dog. 
-
-				<hr>
-				<h5>3. The Three Muskateers</h5>
-				<b>Author: </b> Alexandre Dumas<br>
-				<b>Pages: </b> 598 <br>
-				<b>Read: </b>2019<br>
-				<b>Favourite passage: </b> <i>“In her body and her heart, passion succeeded passion, consuming her ever anew; her life took on the color and movement
-					of clouds that float across the firmament, tinged now with azure, now with fire, and now with the blackness of a tempest which leaves in its wake
-					no trace of aught but devastation and death." 
-					</i> <br><br>
-
-				The Three Muskateers is a story about a young man named d'Artagnan from a country-side in France, traveling to Paris to 
-				follow his dreams of becoming a Muskateer of the Royal Guard. Very quickly in a series of wholesome and unlikely series of
-				events, d'Artagnan befriends three muskateers (Athos, Porthos and Aramis) and together get swept into a timeless adventure 
-				of mystery, romance and sweet, sweet retribution. <br>
-
-				The comradory between d'Artagnan and the muskateers stood out exceptionally because I was able to imagine myself, with my own group 
-				of friends, finding the courage and strength upheld by these written characters and getting in caught in the same endearing and unstoppable 
-				momentum crafted by Dumas today. I really do appreciate how the friendship portrayed in 1844 when the story was written is so accessible and 
-				relatable to a reader almost 200 years later (me). Similarly to the Count of Monte Christo, the characters introduced through the entire 
-				story have powerful culminations and pay consistent dividends throughout the story for investing in emotionally. The good guys, neutral guys and the brillant
-				minds of their adverseries were truly special to read, understand and see stand up to eachother. 
-
-				
-
-			
-
-			 
+			<hr>
+			<h5>3. The Three Muskateers</h5>
+			<b>Author: </b> Alexandre Dumas
+			<br>
+			<b>Pages: </b> 598
+			<br>
+			<b>Read: </b>2019
+			<br>
+			<b>Favourite passage: </b>
+			<i>“In her body and her heart, passion succeeded passion, consuming her ever anew; her life took on the color and movement
+				of clouds that float across the firmament, tinged now with azure, now with fire, and now with the blackness of a tempest
+				which leaves in its wake no trace of aught but devastation and death."
+			</i>
+			<br>
+			<br> The Three Muskateers is a story about a young man named d'Artagnan from a country-side in France, traveling to Paris
+			to follow his dreams of becoming a Muskateer of the Royal Guard. Very quickly in a series of wholesome and unlikely series
+			of events, d'Artagnan befriends three muskateers (Athos, Porthos and Aramis) and together get swept into a timeless adventure
+			of mystery, romance and sweet, sweet retribution.
+			<br> The comradory between d'Artagnan and the muskateers stood out exceptionally to me. Dumas described the courage and strength
+			of these characters so clearly that I was able to imagine my friends (in a present day setting) getting caught up in the
+			same endearing and unstoppable momentum originally written for 17th century France. I really do appreciate how the friendship
+			portrayed in 1844, when the story was written, is so accessible and relatable to a reader (me) almost 200 years later.
+			Similarly to the Count of Monte Christo, all supporting and main characters have powerful plot culminations and pay consistent
+			dividends throughout the story for emotionally investing in. The good guys, neutral guys and the brillant minds of their
+			adverseries were truly special to read, understand and see stand up to eachother.
 		</div>
 
-
 		<div class="container box_1620">
+			<h3>Completed Books </h3>
+			<h4>
+				2019
+			</h4>
 			<div class="banner_inner d-flex align-items-center">
-				<div class="banner_content">
-					<div class="media">
+				<div class="flex-books">
+				<div class="gallery">
+					  <img src="./books/muskateers.jpg" width="600" height="400">
+					<div class="desc">The Three Muskateers</div>
+				  </div>
+				  
+				  <div class="gallery">
+					  <img src="./books/2019/chesilBeach.jpg" width="600" height="400">
+					<div class="desc">On Chesil Beach</div>
+				  </div>
 
-						
+				  <div class="gallery">
+					<img src="./books/2019/childreanAct.jpg" width="600" height="400">
+				  <div class="desc">The Children Act</div>
+				</div>
 
+				<div class="gallery">
+					<img src="./books/2019/serfdom.jpg" width="600" height="400">
+				  <div class="desc">The Road to Serfdom</div>
+				</div>
 
-					</div>
+				<div class="gallery">
+					<img src="./books/2019/amsterdam.jpeg" width="600" height="400">
+				  <div class="desc">Amsterdam</div>
+				</div>
+				<div class="gallery">
+					<img src="./books/2019/enduringLove.jpeg" width="600" height="400">
+				  <div class="desc">Enduring Love</div>
+				</div>
+				
 				</div>
 			</div>
+			<h4>
+				2018
+			</h4>
+			<div class="banner_inner d-flex align-items-center">
+				<div class="flex-books">
+				<div class="gallery">
+					  <img src=".books/karenina.jpg" width="600" height="400">
+					<div class="desc">Anna Karenina</div>
+				  </div>
+				  
+				  <div class="gallery">
+					  <img src="./books/2019/chesilBeach.jpg" width="600" height="400">
+					<div class="desc">On Chesil Beach</div>
+				  </div>
+
+				  <div class="gallery">
+					<img src="./books/2019/childreanAct.jpg" width="600" height="400">
+				  <div class="desc">The Children Act</div>
+				</div>
+
+				<div class="gallery">
+					<img src="./books/2019/serfdom.jpg" width="600" height="400">
+				  <div class="desc">The Road to Serfdom</div>
+				</div>
+
+				<div class="gallery">
+					<img src="./books/2019/amsterdam.jpeg" width="600" height="400">
+				  <div class="desc">Amsterdam</div>
+				</div>
+				<div class="gallery">
+					<img src="./books/2019/enduringLove.jpeg" width="600" height="400">
+				  <div class="desc">Enduring Love</div>
+				</div>
+				
+				</div>
+			</div>
+
 		</div>
 
 
@@ -1223,21 +1351,19 @@
 	<script src="js/mail-script.js"></script>
 	<script src="js/theme.js"></script>
 	<script src="js/main.js"></script>
-	
-	    <!-- <script src="../src/hes-gallery.js"></script> -->
-		<script src="album.js"></script>
-		<script>
-	
-			HesGallery.setOptions({
-				disableScrolling: false,
-				hostedStyles: false,
-				animations: true,
-	
-				showImageCount: true,
-				wrapAround: true
-			});
-	
-		</script>
+
+	<!-- <script src="../src/hes-gallery.js"></script> -->
+	<script src="album.js"></script>
+	<script>
+		HesGallery.setOptions({
+			disableScrolling: false,
+			hostedStyles: false,
+			animations: true,
+
+			showImageCount: true,
+			wrapAround: true
+		});
+	</script>
 </body>
 
 </html>
