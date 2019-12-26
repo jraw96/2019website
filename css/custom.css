@@ -80,6 +80,13 @@
   }
 
 
+
+  .flex-about {
+    display: flex;
+    justify-content: space-between
+  }
+
+
   .flex-row {
     display: flex;
     flex-direction: row;

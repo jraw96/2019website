@@ -2605,7 +2605,7 @@ h6 {
     width: 5px;
     background-color: #DCDCDC;	
     position: absolute;
-    left: 50.3%;
+    left: 50%;
     transform: translateX(-50%);
     top: -5px; }
   .tabs_inner .tab-content .tab-pane .list li {
@@ -2618,7 +2618,7 @@ h6 {
       display: block;
       background-color: #DCDCDC;	
       position: absolute;
-      left: 50.3%;
+      left: 50%;
       top: 30px;
       transform: translateX(-50%); }
       .tabs_inner .tab-content .tab-pane .list li span:before {
@@ -2741,7 +2741,7 @@ h6 {
   color: #222222; }
 .personal_text p {
   font-family: "Roboto", sans-serif;
-  max-width: 540px;
+
   color: #777777;
    }
 .personal_text .basic_info li {
