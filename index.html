@@ -28,7 +28,7 @@
 	<!-- 	<link href="https://fonts.googleapis.com/css?family=Raleway:600,900" rel="stylesheet"> -->
 </head>
 
-<body>
+<body style="background-image: url('./textures/gplaypattern.png')">
 
 	<!--================Header Menu Area =================-->
 	<header class="header_area background-color">
@@ -58,9 +58,21 @@
 								<span class="nav-link"> | </span>
 							</li>
 							<li class="nav-item submenu dropdown">
-								<a href="#" style="cursor: default" class="nav-link dropdown-toggle" id="travel-label"
+								
+								
+
+									<div class="dropdown">
+											<a href="#" style="cursor: default" class="nav-link dropdown-toggle" id="travel-label"
 									data-toggle="dropdown" role="button" aria-haspopup="true"
 									aria-expanded="false">Travel</a>
+											<div class="dropdown-content">
+											  <a href="#" onclick="greyAllLables(); showSection('france')">France 2019</a>
+											  <a href="#" onclick="greyAllLables(); showSection('vietnam')">Vietnam 2019</a>
+										
+											</div>
+										  </div>
+										  
+										  <!--
 								<ul class="dropdown-menu" style="margin: -10px 0px 0px -20px">
 									<li class="nav-item" style="cursor: pointer">
 										<a class="nav-link" onclick="greyAllLables(); showSection('vietnam')">Vietnam
@@ -71,6 +83,9 @@
 											2019</a>
 									</li>
 								</ul>
+							-->
+
+							
 							</li>
 							<li class="nav-item">
 								<a class="nav-link" id="books-label" style="cursor: pointer"
@@ -163,10 +178,10 @@
 								<div class=" fade-in">
 										<div class="personal_text">
 											<label style="color: rgba(0, 0, 0, 1.9); font-size: 20px">About me</label>
-											<p> I'm a recent computer engineer graduate from the University of Western Ontario. I learned a 
+											<p> I'm a recent computer engineering graduate from the University of Western Ontario. Here I learned a 
 												bunch of things about software and programming, late nights, and four really neat ways to make coffee.
 												I joined the water polo team and had a blast competing in the pool against other schools, and got
-												involved leading awesome video game tournemnts with the Western Electronic Gaming Association. 
+												involved leading awesome video game tournaments with the Western Electronic Gaming Association. 
 												<br>
 												<div style="margin: 12px 0px 12px 0px; color: #777777">
 												My top three hobbies are: <br>
@@ -437,7 +452,7 @@
 				
 														<br> - Configured in-skill purchasing within the Voiceflow Amazon Alexa application
 				
-														<br> - Wrote AWS Lambda Functions for API communication between the Amazon Echo and Node.js server; reducing latency
+														<br> - Wrote AWS Lambda Functions for API communication between the Amazon Echo and Node.js server, reducing latency
 				
 													</p>
 												</div>
@@ -818,8 +833,7 @@
 									<br> <br>
 									We flew into in at the north in Hanoi and gradually made our way south until our return trip from 
 									Saigon (Ho Chi Minh City). The locals were incredibly friendly, the food mind-bogglingly delicious and the scenery 
-									mind-blowingly epic. This country has westernized considerably over the past 20 years and made traveling
-									to Southeast Asia for the first time very accommodatable and truly exceptional. Included below are pictures
+									mind-blowingly epic. Included below are pictures
 									we took throughout our journey.<br><br>
 									
 								</p>
@@ -1126,7 +1140,7 @@
 									were to photograph. 
 									<br><br>
 									Our top favourite food we had during the trip was at a sandwhich vendor outside a park in Paris, making
-									homemade tomate and cheese sandwhiches. Incredibly delicious.
+									homemade tomato and cheese sandwhiches.
 									
 									<br><br>
 
@@ -1197,8 +1211,8 @@
 							data-subtext='Annecy'>
 						<img src="france/annecy5.jpg" style='width: 178%;' alt="image1"
 							data-fullsize="france/annecy5.jpg" data-subtext='Annecy'>
-						<img src="france/annecy2.jpg" style='opacity: 0;' alt="image1"
-							data-fullsize="france/annecy2.jpg" data-subtext='Annecy'>
+						<img src="france/annecy5.jpg" style='opacity: 0;' alt="image1"
+							data-fullsize="france/annecy5.jpg" data-subtext='Annecy'>
 						<img src="france/annecy7.jpg" style="margin-left: -12%" alt="image1"
 							data-fullsize="france/annecy7.jpg" data-subtext='Annecy'>
 						<img src="france/annecy4.jpg" alt="image1" data-fullsize="france/annecy4.jpg"
@@ -1349,7 +1363,7 @@
 			</div>
 		</div>
 
-		<div class="container box_1620" style="margin-top: 24px; margin-bottom: 24px">
+		<div class="container box_1620 fade-in" style="margin-top: 24px; margin-bottom: 24px">
 			<h3>Top 3 Books</h3>
 			<p style="margin-bottom: 20px">These are my favourite books of all time so far. They stand out deeply
 				because I can still remember the
@@ -1395,13 +1409,10 @@
 			issues compiled,
 			what was left was a magnificent achievement of story telling and a testament to how plot diversity, woven
 			together at
-			a grand scale over time, can be elegantly resolved in a single ending (I'm looking at you Game of Thrones,
-			HBO...)
-			<br> With of the 20+ charaters and diverse webs of relations, Dumas remarkably was able to make sure that
-			each character at
-			one point had a pivotal role or significant influence; no perspective failed to leave an impact on the
+			a grand scale over time, can be elegantly resolved in a single ending.
+			<br> With 20+ charaters and diverse webs of relations, Dumas remarkably was able to make sure that
+			each character had a pivotal role or significant influence; no perspective failed to leave an impact on the
 			protagonist's journey.
-			Realizing this by the end of the book was incredibly satisfying and brilliantly done by Dumas.
 			<br> The writing style of Dumas is a constant balancing flow of vivid descriptions and fluid dialogue.
 			Occasionally the book
 			read itself so naturally I felt I could have been in the scene, listening quietly from somewhere. Overall a
@@ -1424,31 +1435,28 @@
 			</i>
 			<br>
 			<br> Anna Karenina is a novel about the lives of two people, Anna Karenina and Konstantin Dmitrievich Levin
-			(who became referred
-			to mostly as just Levin), living in 1800's Russia. Both of these characters go through remarkable plots
+			(who mostly goes by just Levin), living in 1800's Russia. Both of these characters go through remarkable plots
 			individually,
-			but what made this book leave such an impact on me was witnessing how Tolstoy used the conflicts faced by
+			but what made this story have such an impact was witnessing how Tolstoy used the conflicts faced by
 			each character,
-			to weave into and out of the other's life directly and indirectly, and reveal themes and ideas I couldn't
+			to weave into and out of the other's plot both directly and indirectly, to reveal themes and ideas I couldn't
 			see elsewise.
-			While reading in Anna's character circle I was able to ask questions that I could find answers and
+			While reading a perspective in Anna's world I was able to ask questions that I could find answers and
 			demonstrations of in
-			Levin's circle, and vice versa while reading in Levin's. I began realizing this more and more throughout the
+			Levin's world, and vice versa while reading in Levin's. I began realizing this more and more throughout the
 			book, until
 			by the end I was mind blown by how much my appreciation of Anna's story was because of Levin and Levin's
 			story because
 			of Anna.
-			<br>Tolstoy's writing style is already acclaimed and my only contribution to further this is to just commend
-			that the way
-			he can capture ordinary, simple details about emotions, settings or life and reveal how truly remarkable
-			they are is incredible.
-			Tolstoy lets the reader so easily and smoothly slip between the many (there are many) perspectives in the
+			<br>The way Tolstoy's writing style can capture ordinary, simple details about emotions, settings and life 
+			and show how truly remarkable they are is incredible.
+			Tolstoy lets the reader slip so easily and smoothly between perspectives in the
 			story. At one
 			point there was a chapter from a dog's perspective running in a countryside that I didn't realize until I
 			was back to
 			reading from a person's. My only spoiler of this book (it's pretty much an obsolete spoiler, but stop
 			reading here to
-			avoid it) is to say that it was a good dog.
+			avoid it) is that is was a good dog.
 
 			<hr>
 			<h5>3. The Three Muskateers</h5>
@@ -1466,20 +1474,18 @@
 				which leaves in its wake no trace of aught but devastation and death."
 			</i>
 			<br>
-			<br> The Three Muskateers is a story about a young man named d'Artagnan from a country-side in France,
+			<br> The Three Muskateers is a story about a young man, d'Artagnan, from a country-side in France
 			traveling to Paris
 			to follow his dreams of becoming a Muskateer of the Royal Guard. Very quickly in a series of wholesome and
-			unlikely series
-			of events, d'Artagnan befriends three muskateers (Athos, Porthos and Aramis) and together get swept into a
+			unlikely events, d'Artagnan befriends three muskateers (Athos, Porthos and Aramis) and together get swept into a
 			timeless adventure
 			of mystery, romance and sweet, sweet retribution.
-			<br> The comradory between d'Artagnan and the muskateers stood out exceptionally to me. Dumas described the
-			courage and strength
-			of these characters so clearly that I was able to imagine my friends (in a present day setting) getting
+			<br> The comradory described by Dumas was so immersive
+			 that I was able to imagine my friends (in a present day setting) getting
 			caught up in the
-			same endearing and unstoppable momentum originally written for 17th century France. I really do appreciate
-			how the friendship
-			portrayed in 1844, when the story was written, is so accessible and relatable to a reader (me) almost 200
+			same endearing and unstoppable momentum, originally written for 17th century France. It's remarkable how ageless
+			the friendships protrayed
+			in 1844, when the story was written, are so relatable to a reader almost 200
 			years later.
 			Similarly to the Count of Monte Christo, all supporting and main characters have powerful plot culminations
 			and pay consistent
@@ -1488,7 +1494,7 @@
 			adverseries were truly special to read, understand and see stand up to eachother.
 		</div>
 
-		<div class="container box_1620">
+		<div class="container box_1620" style="margin-bottom: 24px">
 			<h3>Completed Books </h3>
 			<h4>
 				2019

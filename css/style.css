@@ -313,9 +313,9 @@ height: 100vh;
 
   /* Background color scheme */
   /*Background goes here!!! */
-  background-image: -moz-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%);
+  /*background-image: -moz-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%); */
   background-image: url("../textures/gplaypattern.png"); /* -webkit-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%); */
-  background-image: -ms-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%);
+  /*background-image: -ms-linear-gradient(0deg, #FDF5E6 0%, #FDF5E6 100%); */
 
  }
   .home_banner_area .box_1620 {
