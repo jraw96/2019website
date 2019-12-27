@@ -169,7 +169,7 @@ button:focus {
           @media (min-width: 992px) {
             .header_area .navbar .nav .nav-item.submenu ul {
               position: absolute;
-              top: 120%;
+              top: 75%;
               left: 0px;
               min-width: 200px;
               text-align: left;
